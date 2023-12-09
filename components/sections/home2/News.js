@@ -24,7 +24,7 @@ export default function News() {
                                         <li>/</li>
                                         <li>By Raana irave </li>
                                     </ul>
-                                    <h4><Link href="">How to Manage Business’s Online Reputation</Link></h4>
+                                    <h4><Link href="">Lorem Ipsum is simply dummy text of the printing</Link></h4>
                                     <Link href="" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default function News() {
                                         <li>/</li>
                                         <li>By Brendan Duke</li>
                                     </ul>
-                                    <h4><Link href="">Is Your Business Ready For <br />Integration?</Link></h4>
+                                    <h4><Link href="">Lorem Ipsum is simply dummy text of the printing</Link></h4>
                                     <Link href="" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ export default function News() {
                                         <li>/</li>
                                         <li>By Garrett Ford</li>
                                     </ul>
-                                    <h4><Link href="">That Should You Include In <br /> Your Marketing Plan</Link></h4>
+                                    <h4><Link href="">Lorem Ipsum is simply dummy text of the printing</Link></h4>
                                     <Link href="" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                                 </div>
                             </div>

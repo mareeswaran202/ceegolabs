@@ -18,7 +18,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-up" /></div></div>
                                 <h4>Contract <br />Manufacturing</h4>
-                                <div className="text">From banking &amp; insurances to wealth management and securitie distribution.</div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-chart" /></div></div>
                                 <h4>Quality <br />Complaince</h4>
-                                <div className="text">Rejects pleasures secure other greater occur endures for financial centers. </div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-system" /></div></div>
                                 <h4>Private <br />Labeling</h4>
-                                <div className="text">Rejects pleasures secure other greater occur endures for financial centers. </div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-business-and-finance" /></div></div>
                                 <h4>Custom <br />Packing</h4>
-                                <div className="text">Equal blame belongs too those who fail in their duty of the industries.</div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-support" /></div></div>
                                 <h4>Distribution <br />Support</h4>
-                                <div className="text">Equal blame belongs too those who fail in their duty of the industries.</div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-endless" /></div></div>
                                 <h4>New Formulation <br />Development</h4>
-                                <div className="text">Equal blame belongs too those who fail in their duty of the industries.</div>
+                                <div className="text">Lorem Ipsum is &amp; dummy text of the printing and typesetting industry.</div>
                                 <Link href="#" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>

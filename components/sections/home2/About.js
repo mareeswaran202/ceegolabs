@@ -16,7 +16,7 @@ export default function About() {
                         <div className="col-lg-6">
                             <div className="image-block">
                                 <div className="image-one"><img className="lazy-image owl-lazy" src="/assets/images/resource/home-one.png" alt="" /></div>
-                                <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/c.png" style={{width:300}} alt="" /></div>
+                                <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/lab-person.png" style={{width:300}} alt="" /></div>
                                 <div className="image-three">
                                     <img className="lazy-image owl-lazy" src="/assets/images/resource/tablets.jpg" style={{width:300, height:290}} alt="" />
                                     <div className="video-box">
