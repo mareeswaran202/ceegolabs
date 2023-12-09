@@ -9,47 +9,47 @@ export default function Footer2() {
                     {/*Widgets Section*/}
                     <div className="widgets-section">
                         <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-lg-3">
                                 <div className="footer-widget links-widget">
                                     <h3 className="widget-title">Information</h3>
                                     <div className="widget-content">
                                         <div className="row">
-                                            <div className="col-sm-3">
+                                            <div className="col-sm-12">
                                                 <ul>
                                                     <li><Link href="">About</Link></li>
                                                     <li><Link href="">Meet Our Team</Link></li>
-                                                    <li><Link href="">News</Link></li>
-                                                   
-                                                   
-                                                </ul>
-                                            </div>
-                                            <div className="col-sm-6">
-                                                <ul>
-                                                   
-                                                <li><Link href="">Services</Link></li>
+                                                    <li><Link href="">FAQ</Link></li>
                                                     <li><Link href="">Careers</Link></li>
-                                                    <li><Link href="/contact-2">Contact</Link></li>
-                                                    
+                                                    <li><Link href="">News</Link></li>
+                                                    <li><Link href="/contact-2">Contact Us</Link></li>
+                                                   
+                                                   
                                                 </ul>
                                             </div>
+                                             
                                         </div>
                                     </div>
                                     <div className="logo"><img src="/assets/images/icons/icon-11.png" alt="" /></div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 d-none">
-                                <div className="footer-widget post-widget">
-                                    <h3 className="widget-title">Trending Post</h3>
+                            <div className="col-lg-5">
+                                <div className="footer-widget links-widget">
+                                    <h3 className="widget-title">Our Services</h3>
                                     <div className="widget-content">
-                                        <div className="post">
-                                            <div className="image"><Link href="/blog-details"><img src="/assets/images/resource/news-9.jpg" alt="" /></Link></div>
-                                            <div className="date">14 February, {new Date().getFullYear()}</div>
-                                            <h4><Link href="/blog-details">Is Your Business Ready For <br />Integration?</Link></h4>
-                                        </div>
-                                        <div className="post">
-                                            <div className="image"><Link href="/blog-details"><img src="/assets/images/resource/news-10.jpg" alt="" /></Link></div>
-                                            <div className="date">21 January, {new Date().getFullYear()}</div>
-                                            <h4><Link href="/blog-details">That Should You Include In <br /> Your Marketing Plan </Link></h4>
+                                    <div className="row">
+                                            <div className="col-sm-12">
+                                                <ul>
+                                                    <li><Link href="">Contract Manufacturing</Link></li>
+                                                    <li><Link href="">Quality Complaince</Link></li>
+                                                    <li><Link href="">Private Labeling</Link></li>
+                                                    <li><Link href="">Custom Packaging</Link></li>
+                                                    <li><Link href="">Distribution Support</Link></li>
+                                                    <li><Link href="">New Formulation Development</Link></li>
+                                                   
+                                                   
+                                                </ul>
+                                            </div>
+                                             
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@ export default function Footer2() {
                                             </div>
                                         <ul className="list">
                                             <li>Call Us :  <Link href="tel:044-27259100">044-27259100</Link></li>
-                                            <li>Mail us :  <Link href="mailto:supportteam@Envolve.com">Supportteam@Envolve.com</Link></li>
+                                            <li>Mail us :  <Link href="mailto:support@ceegolabs.com">support@ceegolabs.com</Link></li>
                                         </ul>
                                         <ul className="social-links clearfix">
                                             <li><Link href="#"><span className="fab fa-facebook-f" /></Link></li>

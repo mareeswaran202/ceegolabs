@@ -61,10 +61,10 @@ export default function TeamSlider2() {
                         <div className="image"><img src="/assets/images/resource/team-1.jpg" alt="" /></div>
                         <div className="lower-content">
                             <div className="designation">Ceo &amp; Founder</div>
-                            <h4>Adam Clinton</h4>
+                            <h4>Lorem Ipsum</h4>
                             <ul className="list">
                                 <li><Link href="#"><span className="flaticon-call" />044-27259100</Link></li>
-                                <li><Link href="#"><span className="flaticon-bag" />theodore@ceegolabs.com</Link></li>
+                                <li><Link href="#"><span className="flaticon-bag" />lorem@ceegolabs.com</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -74,10 +74,10 @@ export default function TeamSlider2() {
                         <div className="image"><img src="/assets/images/resource/team-2.jpg" alt="" /></div>
                         <div className="lower-content">
                             <div className="designation">Managing Director</div>
-                            <h4>Homer Donnie</h4>
+                            <h4>Lorem Ipsum</h4>
                             <ul className="list">
                                 <li><Link href="#"><span className="flaticon-call" />044-27259100</Link></li>
-                                <li><Link href="#"><span className="flaticon-bag" />donnie@ceegolabs.com</Link></li>
+                                <li><Link href="#"><span className="flaticon-bag" />lorem@ceegolabs.com</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -86,11 +86,11 @@ export default function TeamSlider2() {
                     <div className="inner-box">
                         <div className="image"><img src="/assets/images/resource/team-3.jpg" alt="" /></div>
                         <div className="lower-content">
-                            <div className="designation">donnie@ceegolabs.com</div>
-                            <h4>Jerome Hobert</h4>
+                            <div className="designation">lorem@ceegolabs.com</div>
+                            <h4>Lorem Ipsum</h4>
                             <ul className="list">
                                 <li><Link href="#"><span className="flaticon-call" />044-27259100</Link></li>
-                                <li><Link href="#"><span className="flaticon-bag" />hobert@ceegolabs.com</Link></li>
+                                <li><Link href="#"><span className="flaticon-bag" />lorem@ceegolabs.com</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -100,10 +100,10 @@ export default function TeamSlider2() {
                         <div className="image"><img src="/assets/images/resource/team-4.jpg" alt="" /></div>
                         <div className="lower-content">
                             <div className="designation">Marketing Officer</div>
-                            <h4>Leonard Melvin</h4>
+                            <h4>Lorem Ipsum</h4>
                             <ul className="list">
                                 <li><Link href="#"><span className="flaticon-call" />044-27259100</Link></li>
-                                <li><Link href="#"><span className="flaticon-bag" />melvin@ceegolabs.com</Link></li>
+                                <li><Link href="#"><span className="flaticon-bag" />lorem@ceegolabs.com</Link></li>
                             </ul>
                         </div>
                     </div>

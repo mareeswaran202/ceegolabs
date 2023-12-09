@@ -8,7 +8,7 @@ export default function Process() {
                     <div className="sec-title style-two text-center">
                         <h4><span className="flaticon-endless" />Work process</h4>
                         <h2>Way to Reach Success</h2>
-                        <div className="text">Which is the same as saying through shrinking from toil and pain. These cases are <br />perfectly simple and easy to distinguish.</div>
+                        <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  <br />Lorem Ipsum has been the industry's standard dummy text ever.</div>
                     </div>
                     <div className="process-wrapper">
                         <div className="row">
