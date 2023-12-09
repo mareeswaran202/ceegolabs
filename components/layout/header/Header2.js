@@ -50,7 +50,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     </div>
                                 </nav>
                                 {/* Main Menu End*/}
-                                <div className="navbar-right-info">
+                                <div className="navbar-right-info d-none">
                                     <div className="faq-btn"><a href="#"><span className="flaticon-question" />FAQ'S</a></div>
                                     <div className="link-btn"><a href="#" className="theme-btn btn-style-four"><span className="btn-title">Free Consult</span></a></div>
                                     <button type="button" className="theme-btn search-toggler" onClick={handlePopup}><span className="flaticon-search" /></button>

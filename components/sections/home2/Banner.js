@@ -59,8 +59,8 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                                 <div>
-                                    <h3>Support and Maintenance</h3>
-                                    <h2>The Fastest <br /> Way to Achieve <br /> Success </h2>
+                                    <h3 className="d-none">Support and Maintenance</h3>
+                                    <h2>New Product<br/> Development</h2>
                                     <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-four"><span className="btn-title">Read More</span></Link>
                                     </div>

@@ -42,9 +42,9 @@ export default function Home() {
                                         <div className="icon"><img src="/assets/images/icons/icon-50.png" alt="" /></div>
                                         <h4>Corporate Address</h4>
                                         <ul>
-                                            <li>Old 96 / 6 , New 23 / 6 ,</li>
-                                            <li>Dr.Ambethkar Road ,1st Floor,</li>
-                                            <li>Chennai, Tamil Nadu 600024</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Old 96 / 6 , New 23 / 6 ,</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Dr.Ambethkar Road ,1st Floor,</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Chennai, Tamil Nadu 600024</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -53,9 +53,9 @@ export default function Home() {
                                         <div className="icon"><img src="/assets/images/icons/icon-50.png" alt="" /></div>
                                         <h4>Factory Address</h4>
                                         <ul>
-                                        <li>S.No.84/1A1, 86/3A1, 86/3A2, 86/3B1,</li>
-                                            <li>Manjamedu Village Thenneri Post,</li>
-                                            <li>Kanchipuram District - 631 604.</li>
+                                        <li style={{fontSize:13, fontWeight:700}}>S.No.84/1A1, 86/3A1, 86/3A2, 86/3B1,</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Manjamedu Village Thenneri Post,</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Kanchipuram District - 631 604.</li>
                                         </ul>
                                     </div>
                                 </div>
