@@ -1,14 +1,20 @@
-
+'use client'
 import ServiceTabs1 from "@/components/elements/ServiceTabs1"
 import Layout from "@/components/layout/Layout"
 import AuditSlider1 from "@/components/slider/AuditSlider1"
 import ServiceSlider1 from "@/components/slider/ServiceSlider1"
 import Link from "next/link"
+import { useState } from "react"
 export default function Home() {
+
+    const [activeIndex, setActiveIndex] = useState(1)
+    const handleOnClick = (index) => {
+        setActiveIndex(index)
+    }
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Support & Maintenance" wrapperCls="home_2">
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Private Labeling" wrapperCls="home_2">
                 <div>
                     <section className="services-details">
                         <div className="auto-container">

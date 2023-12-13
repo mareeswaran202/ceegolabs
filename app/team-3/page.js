@@ -25,10 +25,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Adam Clinton</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Ceo &amp; Founder</div>
                                             </div>
-                                            <div className="text">Same as saying through shrinking toil and cases are perfectly simple except.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,10 +47,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Homer Donnie</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Managing Director</div>
                                             </div>
-                                            <div className="text">Undertakes laborious physically exercise except to obtain advantage.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -69,10 +69,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Jerome Hobert</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Chief Executive</div>
                                             </div>
-                                            <div className="text">How to pursue pleasure rationaly counter that are extremely desires.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,10 +91,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Leonard Melvin</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Marketing Officer</div>
                                             </div>
-                                            <div className="text">Undertakes laborious physically exercise except to obtain advantage.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -113,10 +113,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Jerome Hobert</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Chief Executive</div>
                                             </div>
-                                            <div className="text">How to pursue pleasure rationaly counter that are extremely desires.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -135,10 +135,10 @@ export default function Home() {
                                         </div>
                                         <div className="lower-content">
                                             <div className="author-title">
-                                                <h4>Adam Clinton</h4>
+                                                <h4>Lorem Ipsum</h4>
                                                 <div className="designation">Ceo &amp; Founder</div>
                                             </div>
-                                            <div className="text">Same as saying through shrinking toil and cases are perfectly simple except.</div>
+                                            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                                         </div>
                                     </div>
                                 </div>

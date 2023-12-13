@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Software & Research" wrapperCls="home_2">
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Custom Packaging" wrapperCls="home_2">
                 <div>
                     <section className="services-details">
                         <div className="auto-container">

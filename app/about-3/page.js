@@ -1,5 +1,5 @@
 
-import CounterUp from "@/components/elements/CounterUp"
+
 import Layout from "@/components/layout/Layout"
 import TestimonialSlider2 from "@/components/slider/TestimonialSlider2"
 import Link from "next/link"
@@ -7,27 +7,21 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About company" wrapperCls="home_1">
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="About company" wrapperCls="home_2">
                 <div>
                     <section className="about-section-six">
                         <div className="auto-container">
                             <div className="row">
                                 <div className="col-lg-6 content-column">
                                     <div className="sec-title">
-                                        <h2>Professional and <br /> dedicated consulting services</h2>
+                                        <h2>About Us</h2>
                                         <div className="text-decoration">
                                             <span className="left" />
                                             <span className="right" />
                                         </div>
-                                        <div className="text">How all this mistaken idea of denouncing pleasure and praising pain was born &amp; we will give you a complete account of the system expound the actual teaching the great explorer. </div>
+                                        <div className="text">Ceego Labs Provides state-of-art manufacturing facilities for Food Supplements, Pharmaceutical & Feed Supplement Formulations. We have good Manufacturing Practices and Superior quality products as a cardinal principle.Quality is paramount at Ceego Labs. Our quality processes and procedures span every area of manufacturing from the raw materials to finished products.Our combination of highly experienced and well Qualified professionals and latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing. We are dedicated to delivering the highest possible levels of customer satisfaction. </div>
                                     </div>
-                                    <div className="author-box">
-                                        <div className="signature"><img src="/assets/images/resource/signature.png" alt="" /></div>
-                                        <div className="author-info">
-                                            <h4>Franklin Sinatra</h4>
-                                            <h5>Manager</h5>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="experience-years-block">
@@ -40,158 +34,79 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="image"><img src="/assets/images/resource/image-45.jpg" alt="" /></div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="sec-title">
-                                        <h2>Reason for choosing our <br /> consultancy</h2>
+                                <div className="col-lg-12">
+                                <div className="sec-title text-center">
+                                        <h2>Reason for choosing our <br /> Ceegolabs</h2>
                                         <div className="text-decoration">
                                             <span className="left" />
                                             <span className="right" />
                                         </div>
                                     </div>
-                                    <div className="whay-choose-block">
-                                        <div className="inner-box">
-                                            <div className="icon"><span className="flaticon-bot" /></div>
-                                            <h4>Tailored advice and <br /> support</h4>
-                                            <div className="text">Business it will frequently occur that pleasures have to repudiated accepted.</div>
-                                        </div>
-                                    </div>
-                                    <div className="whay-choose-block">
-                                        <div className="inner-box">
-                                            <div className="icon"><span className="flaticon-diamond" /></div>
-                                            <h4>Flexibility to serve you <br /> better service</h4>
-                                            <div className="text">Complete accounts of the systems and expound <br /> teachings of the great explorers.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* Funfacts Section Two */}
-                    <section className="funfacts-section-two style-two" style={{ backgroundImage: 'url(assets/images/background/bg-20.jpg)' }}>
-                        <div className="auto-container">
-                            {/* Fact Counter */}
-                            <div className="fact-counter-two">
-                                <div className="row">
-                                    {/*Column*/}
-                                    <div className="column counter-column col-lg-4">
-                                        <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div className="icon-box">
-                                                <div className="icon"><span className="flaticon-interview" /></div>
-                                            </div>
-                                            <div className="content">
-                                                <div className="counter-title">Projects</div>
-                                                <div className="count-outer count-box">
-                                                    <CounterUp end={2.5} /><span>K</span>
-                                                </div>
-                                                <div className="text">Successful Projects</div>
-                                                <p>Our Projects</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/*Column*/}
-                                    <div className="column counter-column col-lg-4">
-                                        <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div className="icon-box">
-                                                <div className="icon"><span className="flaticon-boss" /></div>
-                                            </div>
-                                            <div className="content">
-                                                <div className="counter-title">Our Team</div>
-                                                <div className="count-outer count-box">
-                                                    <CounterUp end={138} /><span>+</span>
-                                                </div>
-                                                <div className="text">Experienced Staff</div>
-                                                <p>Team Members</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/*Column*/}
-                                    <div className="column counter-column col-lg-4">
-                                        <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div className="icon-box">
-                                                <div className="icon"><span className="flaticon-cup" /></div>
-                                            </div>
-                                            <div className="content">
-                                                <div className="counter-title">Happy Clients</div>
-                                                <div className="count-outer count-box">
-                                                    <CounterUp end={99} /><span>%</span>
-                                                </div>
-                                                <div className="text">Client Satisfaction</div>
-                                                <p>Testimonials</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* Services Section five */}
-                    <section className="services-section-five style-three">
-                        <div className="auto-container">
-                            <div className="top-content row m-0 justify-content-between">
-                                <div className="sec-title">
-                                    <h2>Industries we served</h2>
-                                    <div className="text-decoration">
-                                        <span className="left" />
-                                        <span className="right" />
-                                    </div>
-                                </div>
-                                <div className="text">Which is the same as saying through shrinking from toil and pain <br /> these perfectly simple and easy to distinguish.</div>
+                                </div>            
+                                
                             </div>
                             <div className="row">
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-bank" /></div>
-                                            <h4>Banking &amp; <br /> capital market</h4>
+                            <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-bot" /></div>
+                                            <h4>Our Team Strength</h4>
+                                            <div className="text">Ceego Labs has well Experienced, Qualified and Competent Technical Personnel in various departments.</div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-diamond" /></div>
+                                            <h4>Our Core Value</h4>
+                                            <div className="text">At Ceego Labs, we share a strong set of values that serve as the foundation for our individual and associates performance.</div>
+                                        </div>
+                                    </div>                              
+                                </div>
+                                <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-bot" /></div>
+                                            <h4>Customer Satisfaction</h4>
+                                            <div className="text">CEEGO LABS's main goal has been to solicit and promote ideas from its teams in order to ensure customer satisfaction  by providing the best final product end-to-end.</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-insurance" /></div>
-                                            <h4>Finance &amp; <br /> insurance market</h4>
+                                <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-diamond" /></div>
+                                            <h4>Latest Technologies</h4>
+                                            <div className="text">Installed with the advanced machinery and technology our formulation meets international manufacturing standards.</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-trolley" /></div>
-                                            <h4>Logistic &amp; <br />trasportation</h4>
+                                <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-bot" /></div>
+                                            <h4>Uncompromised Quality</h4>
+                                            <div className="text">Our passion for excellence ensures the highest quality of product.</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-null-1" /></div>
-                                            <h4>Justice &amp; <br /> defence security</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-petroleum" /></div>
-                                            <h4>Energy &amp; <br /> resource industry</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-doctor" /></div>
-                                            <h4>Life &amp; <br /> health science</h4>
+                                <div className="col-lg-6">
+                                <div className="whay-choose-block">
+                                        <div className="inner-box">
+                                            <div className="icon"><span className="flaticon-bot" /></div>
+                                            <h4>Competitive Price</h4>
+                                            <div className="text">Ceego Labs is the company that is committed to good health for all by providing quality medicines at affordable prices.</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+                    
+                  
+                    {/* Services Section five */}
+                    
                     {/* Award Section */}
                     <section className="award-section style-two" style={{ backgroundImage: 'url(assets/images/background/bg-21.jpg)' }}>
                         <div className="auto-container">
@@ -203,31 +118,31 @@ export default function Home() {
                                             <span className="left" />
                                             <span className="right" />
                                         </div>
-                                        <div className="text">To take a trivial example, which of us ever undertakes laborious physical exercise, except <br />obtain some advantage from it enjoy a pleasure.</div>
+                                        
                                     </div>
                                     <div className="wrapper-box">
                                         <div className="row">
-                                            <div className="col-lg-4 award-block">
+                                            <div className="col-lg-4 award-block d-flex justify-content-center">
                                                 <div className="inner-box">
-                                                    <div className="image"><img src="/assets/images/resource/award-8.png" alt="" /></div>
-                                                    <h4>Best consulting <br /> company</h4>
+                                                    <div className="image award-image-con"><img src="/assets/images/resource/award-8.png" alt="" /></div>
+                                                    <h4>Food Safety  <br /> Management System</h4>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-4 award-block">
+                                            <div className="col-lg-4 award-block d-flex justify-content-center">
                                                 <div className="inner-box">
-                                                    <div className="image"><img src="/assets/images/resource/award-9.png" alt="" /></div>
-                                                    <h4>Best outsourcing <br /> advisors</h4>
+                                                    <div className="image award-image-con"><img className="gmp" src="/assets/images/resource/award-9.png" alt="" /></div>
+                                                    <h4>Good Manufacturing <br /> Practice</h4>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-4 award-block">
+                                            <div className="col-lg-4 award-block d-flex justify-content-center">
                                                 <div className="inner-box">
-                                                    <div className="image"><img src="/assets/images/resource/award-10.png" alt="" /></div>
-                                                    <h4>Customer choice for <br /> support</h4>
+                                                    <div className="image award-image-con"><img src="/assets/images/resource/award-10.png" alt="" /></div>
+                                                    <h4>Registrar Corp <br /> USA</h4>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="bottom-text">We have won 27 more awards in our career. <Link href="#">View All Awards <i className="flaticon-right" /></Link></div>
+                                     
                                 </div>
                             </div>
                         </div>
@@ -257,7 +172,7 @@ export default function Home() {
                                         <span className="right" />
                                     </div>
                                 </div>
-                                <div className="text">Which is the same as saying through shrinking from toil and pain. These cases are <br />perfectly simple and easy to distinguish.</div>
+                                
                             </div>
                             <div className="wrapper-box">
                                 <div className="outer-box">
