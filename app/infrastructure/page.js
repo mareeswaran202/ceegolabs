@@ -3,7 +3,7 @@ const PortfolioFilter1 = dynamic(() => import('@/components/elements/PortfolioFi
     ssr: false,
 })
 import Layout from "@/components/layout/Layout"
-import Link from "next/link"
+
 function Infrastructure(){
     return(
         <>
@@ -14,7 +14,7 @@ function Infrastructure(){
                         <div className="sortable-masonry">
                             {/*Filter*/}
                             <PortfolioFilter1/>
-                            <div className="link-btn text-center mb-30"><Link href="#" className="theme-btn btn-style-one text-white"><span className="btn-title">Load More</span></Link></div>
+                             
                         </div>
                     </div>
                 </section>
