@@ -2,7 +2,7 @@
 
 import Layout from "@/components/layout/Layout"
 import TestimonialSlider2 from "@/components/slider/TestimonialSlider2"
-import Link from "next/link"
+import '@/public/assets/css/custom.css'
 export default function Home() {
 
     return (

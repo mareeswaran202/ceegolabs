@@ -63,7 +63,7 @@ export default function ServiceSlider1() {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-19.png" alt="" /></div>
                             <h4>Quick Response</h4>
-                            <div className="text">In free hour when power prove all prevent. </div>
+                            <div className="text">Lorem Ipsum is simply dummy text of the printing. </div>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -72,7 +72,7 @@ export default function ServiceSlider1() {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-20.png" alt="" /></div>
                             <h4>Experience Team</h4>
-                            <div className="text">Rejects pleasures secure  great it endures.</div>
+                            <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -81,7 +81,7 @@ export default function ServiceSlider1() {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                             <h4>Flexible Payment</h4>
-                            <div className="text">Cases are perfect sample easy to distinguish.</div>
+                            <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>
                 </SwiperSlide>

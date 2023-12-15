@@ -25,11 +25,11 @@ const swiperOptions = {
         clickable: true,
     },
 }
-export default function AuditSlider1() {
-    return (
-        <>
 
-            <Swiper {...swiperOptions} className="theme_carousel owl-theme">
+function QualitySlider(){
+    return(
+        <>
+          <Swiper {...swiperOptions} className="theme_carousel owl-theme">
                 <SwiperSlide className="slide">
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-5.jpg" alt="" />
@@ -58,3 +58,5 @@ export default function AuditSlider1() {
         </>
     )
 }
+
+export default QualitySlider
