@@ -13,7 +13,7 @@ export default function About() {
             <section className="about-section-two">
                 <div className="auto-container">
                     <div className="row"> 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <div className="image-block">
                                 <div className="image-one"><img className="lazy-image owl-lazy" src="/assets/images/resource/home-one.jpg" alt="" /></div>
                                 <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/lab-person.jpg" alt="" /></div>
