@@ -19,6 +19,7 @@ import "public/assets/css/color-15.css"
 import "public/assets/css/style.css"
 import "public/assets/css/icomoon-3.css"
 import "public/assets/css/responsive.css"
+import "public/assets/css/custom.css"
 
 import 'swiper/css'
 import "swiper/css/pagination"
