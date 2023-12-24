@@ -11,8 +11,8 @@ const Images = (props) => {
   return (
     <div className='images-container'>
       {data.map((image, index) => (
-        <div key={index} className='image'>
-          <img src={image.src} alt={image.title} onClick={() => handleClickImage(index)} />
+        <div key={index} className='pdimage'>
+          <img src={image.src} alt={image.title} onClick={() => handleClickImage(index)} className='prdimg' />
           <p>{image.title}</p>
           <p>{image.description}</p>
         </div>

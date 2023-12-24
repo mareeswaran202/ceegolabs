@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import '../../../public/assets/css/custom.css'
 export default function Footer2() {
     return (
         <>
