@@ -35,9 +35,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                     <li><Link href="/about-3">About Us</Link>
                        
                        </li>
-                       <li><Link href="/team-3">Meet Our Team</Link>
-                           
-                       </li>
+                       <li><Link href="/infrastructure">Infrastructure</Link></li>
                                     </ul>
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>

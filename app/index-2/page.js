@@ -11,7 +11,6 @@ import News from "@/components/sections/home2/News"
 import Process from "@/components/sections/home2/Process"
 import Projects from "@/components/sections/home2/Projects"
 import Services from "@/components/sections/home2/Services"
-import Team from "@/components/sections/home2/Team"
 import Testimonial from "@/components/sections/home2/Testimonial"
 export default function Home() {
 
@@ -24,8 +23,7 @@ export default function Home() {
                 <Projects />
                 <Services />
                 <Process />
-                <Cta />
-                <Team />
+                <Cta />               
                 <Testimonial />
                 <Client />
                 <Funfacts />

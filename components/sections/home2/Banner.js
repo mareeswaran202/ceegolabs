@@ -9,7 +9,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false,
     },
     loop: true,
@@ -88,10 +88,10 @@ export default function Banner() {
 
                     <div className="owl-nav">
                         <button type="button" className="owl-prev">
-                            <span>‹</span>
+                        <i className="flaticon-right-arrow" />
                         </button>
                         <button type="button" className="owl-next">
-                            <span>›</span>
+                        <i className="flaticon-right-arrow" />
                         </button>
                     </div>
                 </Swiper>

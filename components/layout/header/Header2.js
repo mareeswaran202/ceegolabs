@@ -9,24 +9,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                 {/* Header Top */}
                 <div className="header-top style-two">
                     <div className="auto-container">
-                        <div className="inner">
-                            <div className="top-left">
-                                <ul className="contact-info">
-                                    <li><i className="flaticon-clock" />Office Hrs: Today 9.00am to 6.00pm</li>
-                                    <li><a href="tel:044-27259100"><i className="flaticon-phone" />044-27259100</a></li>
-                                </ul>
-                            </div>
+                        <div className="inner justify-content-end">
+                            
                             <div className="top-right">
                                 <ul className="contact-info-two">
                                     <li><i className="flaticon-bag" />Careers</li>
-                                    <li><a href=""><i className="flaticon-mail" />Email Us</a></li>
+                                    <li className="border-0"><a href=""><i className="flaticon-mail" />Email Us</a></li>
                                 </ul>
-                                <ul className="social-links clearfix">
-                                    <li><a href="#"><span className="fab fa-facebook-f" /></a></li>
-                                    <li><a href="#"><span className="fab fa-twitter" /></a></li>
-                                    <li><a href="#"><span className="fab fa-google-plus-g" /></a></li>
-                                    <li><a href="#"><span className="fab fa-skype" /></a></li>
-                                </ul>
+                                
                             </div>
                         </div>
                     </div>

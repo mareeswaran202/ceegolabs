@@ -17,7 +17,7 @@ export default function Cta() {
                                     <h4>044-27259100 </h4>
                                     <div className="text">support@ceegolabs.com</div>
                                 </div>
-                                <Link href="#" className="theme-btn btn-style-four"><span className="btn-title">Let’s Start</span></Link>
+                                <Link href="/contact-2" className="theme-btn btn-style-four"><span className="btn-title">Let’s Start</span></Link>
                             </div>
                         </div>
                     </div>

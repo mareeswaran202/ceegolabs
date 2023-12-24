@@ -53,17 +53,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                         
-                                        <div className="widget widget_contact" style={{ backgroundImage: 'url(assets/images/background/bg-25.jpg)' }}>
-                                            <div className="widget-content">
-                                                <img src="/assets/images/icons/icon-55.png" alt="" />
-                                                <h4>Do you need any help?</h4>
-                                                <div className="phone-number"><Link href="tel:044-27259100">044-27259100</Link></div>
-                                                <div className="email"><Link href="mailto:support@ceegolabs.com">support@ceegolabs.com</Link></div>
-                                                <div className="link-btn"><Link href="#" className="theme-btn btn-style-one text-white">
-                                                    <span className="btn-title">APPOINTMENT</span>
-                                                </Link></div>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </aside>
                             </div>

@@ -19,11 +19,11 @@ export default function SearchPopup({ isPopup, handlePopup }) {
                         <br />
                         <h3>Recent Search Keywords</h3>
                         <ul className="recent-searches">
-                            <li><Link href="#">Finance</Link></li>
-                            <li><Link href="#">Idea</Link></li>
-                            <li><Link href="#">Service</Link></li>
-                            <li><Link href="#">Growth</Link></li>
-                            <li><Link href="#">Plan</Link></li>
+                            <li><Link href="#">Exports</Link></li>
+                            <li><Link href="#">Contract Manufacturing</Link></li>
+                            <li><Link href="#">Formulations</Link></li>
+                            <li><Link href="#">Mail</Link></li>
+                            
                         </ul>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
 export default function Client() {
     return (
         <>
-            <section className="client-section-two">
+            <section className="client-section-two mt-5 p-5">
                 <div className="auto-container">
                     <div className="top-content row m-0 align-items-center justify-content-between">
                         <div className="sec-title style-two">

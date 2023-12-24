@@ -17,10 +17,9 @@ export default function Footer2() {
                                             <div className="col-sm-12">
                                                 <ul>
                                                     <li><Link href="">About</Link></li>
-                                                    <li><Link href="">Meet Our Team</Link></li>
-                                                    <li><Link href="">FAQ</Link></li>
+                                                    <li><Link href="">Meet Our Team</Link></li>                                                   
                                                     <li><Link href="">Careers</Link></li>
-                                                    <li><Link href="">News</Link></li>
+                                                    <li><Link href="">Blog</Link></li>
                                                     <li><Link href="/contact-2">Contact Us</Link></li>
                                                    
                                                    
@@ -29,7 +28,7 @@ export default function Footer2() {
                                              
                                         </div>
                                     </div>
-                                    <div className="logo"><img src="/assets/images/icons/icon-11.png" alt="" /></div>
+                                    <div className="logo"><img src="/assets/images/icons/icon-11a.png" alt="" /></div>
                                 </div>
                             </div>
                             <div className="col-lg-5">
@@ -44,8 +43,7 @@ export default function Footer2() {
                                                     <li><Link href="">Private Labeling</Link></li>
                                                     <li><Link href="">Custom Packaging</Link></li>
                                                     <li><Link href="">Distribution Support</Link></li>
-                                                    <li><Link href="">New Formulation Development</Link></li>
-                                                   
+                                                    <li><Link href="">New Formulation Development</Link></li>                                                  
                                                    
                                                 </ul>
                                             </div>
