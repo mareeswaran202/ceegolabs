@@ -40,7 +40,7 @@ export default function Menu() {
                     </ul>
                 </li>
                
-                <li><Link href="/export-products">Export Products</Link></li>
+                <li className="d-none"><Link href="/export-products">Export Products</Link></li>
                 <li><Link href="/contact-2">Contact Us</Link></li>
                
                

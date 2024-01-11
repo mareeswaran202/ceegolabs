@@ -67,7 +67,7 @@ export default function Footer2() {
                                             <li>Call Us :  <Link href="tel:044-27259100">044-27259100</Link></li>
                                             <li>Mail us :  <Link href="mailto:support@ceegolabs.com">support@ceegolabs.com</Link></li>
                                         </ul>
-                                        <ul className="social-links clearfix">
+                                        <ul className="social-links clearfix d-none">
                                             <li><Link href="#"><span className="fab fa-facebook-f" /></Link></li>
                                             <li><Link href="#"><span className="fab fa-twitter" /></Link></li>
                                             <li><Link href="#"><span className="fab fa-google-plus-g" /></Link></li>

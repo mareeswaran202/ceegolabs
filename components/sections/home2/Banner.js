@@ -8,7 +8,7 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 0,
-    autoplay:false,
+    autoplay:true,
     autoplay: {
         delay: 4500,
         disableOnInteraction: false,
@@ -41,7 +41,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/4.jpg" />
                         <div className="pattern" />
-                        <div className="auto-container">
+                        <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Strategy &amp; Planning</h3>
@@ -57,7 +57,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/5.jpg" />
                         <div className="pattern" />
-                        <div className="auto-container">
+                        <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Support and Maintenance</h3>
@@ -73,7 +73,7 @@ export default function Banner() {
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/6.jpg" />
                         <div className="pattern" />
-                        <div className="auto-container">
+                        <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Pharmaceuticals</h3>
@@ -87,11 +87,13 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
 
-                    <div className="owl-nav">
+                    <div className="owl-nav rightnav">
                         <button type="button" className="owl-prev">
                         <i className="flaticon-right-arrow" />
-                        </button>
-                        <button type="button" className="owl-next">
+                        </button>                       
+                    </div>
+                    <div className="owl-nav leftnav">
+                    <button type="button" className="owl-next">
                         <i className="flaticon-right-arrow" />
                         </button>
                     </div>

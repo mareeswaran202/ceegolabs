@@ -105,3 +105,14 @@
         .header-style-two .header-upper .auto-container{max-width: 1350px;}
         .banner-section.style-two .auto-container{max-width: 1350px;}
         .banner-section.style-two .banner-carousel .content-box{display: flex;}
+        .main-menu .navigation>li>ul{right: 0px !important; left: auto !important;}
+        .banner-section.style-two .owl-theme .owl-nav.rightnav{
+         
+              right: auto;
+              top: 40%;
+              left: 50px;}
+              .banner-section.style-two .owl-theme .owl-nav.leftnav{
+                 
+                    left: auto;
+                    top: 50%;
+                    right: 50px;}
