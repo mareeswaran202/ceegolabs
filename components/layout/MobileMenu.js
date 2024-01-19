@@ -32,7 +32,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 <li ><Link href="/">Home</Link></li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Company</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                    <li><Link href="/about-3">About Us</Link>
+                                    <li><Link href="/aboutus">About Us</Link>
                        
                        </li>
                        <li><Link href="/infrastructure">Infrastructure</Link></li>

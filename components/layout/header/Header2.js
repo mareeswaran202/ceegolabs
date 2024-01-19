@@ -4,7 +4,7 @@ import MobileMenu from "../MobileMenu"
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
         <>
-            {/* <header className="main-header header-style-two"> */}
+            
             <header className={`main-header header-style-two ${scroll ? "fixed-header" : ""}`}>
                 {/* Header Top */}
                 <div className="header-top style-two">

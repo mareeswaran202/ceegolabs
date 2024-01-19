@@ -18,7 +18,7 @@ export default function Menu() {
                 
                 <li className="dropdown"><Link href="#">Company</Link>
                     <ul>
-                        <li><Link href="/about-3">About Us</Link>
+                        <li><Link href="/aboutus">About Us</Link>
                        
                         </li>
                         <li><Link href="/infrastructure">Infrastructure</Link></li>
@@ -41,7 +41,7 @@ export default function Menu() {
                 </li>
                
                 <li className="d-none"><Link href="/export-products">Export Products</Link></li>
-                <li><Link href="/contact-2">Contact Us</Link></li>
+                <li><Link href="/contactus">Contact Us</Link></li>
                
                
             </ul>
