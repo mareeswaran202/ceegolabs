@@ -9,7 +9,6 @@ import Features from "@/components/sections/home2/Features"
 import Funfacts from "@/components/sections/home2/Funfacts"
 import News from "@/components/sections/home2/News"
 import Process from "@/components/sections/home2/Process"
-import Projects from "@/components/sections/home2/Projects"
 import Services from "@/components/sections/home2/Services"
 import Testimonial from "@/components/sections/home2/Testimonial"
 export default function Home() {
@@ -19,8 +18,7 @@ export default function Home() {
             <Layout headerStyle={2} footerStyle={2} wrapperCls="home_2">
                 <Banner />
                 <Features />
-                <About />
-                <Projects />
+                <About />                
                 <Services />
                 <Process />
                 <Cta />               
