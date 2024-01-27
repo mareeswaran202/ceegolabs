@@ -22,7 +22,7 @@ export default function ServiceTabs1() {
                         </li>
                         <li className="nav-item" onClick={() => handleOnClick(3)}>
                             <a className={activeIndex == 3 ? "nav-link active" : "nav-link"}>
-                                03. Warehouse
+                                03. Stores
                             </a>
                         </li>
                         <li className="nav-item" onClick={() => handleOnClick(4)}>
@@ -47,9 +47,9 @@ export default function ServiceTabs1() {
                     <div className="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div className={activeIndex == 1 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
                             <h4>Production</h4>
-                            <div className="text">Each manufacturing block has processing and Filling for liquid orals & Capsules, Compression, Coating for tablets primary packing area Alu Alu & Blister tablets & Capsules, Pouch filling, Induction sealing & Sleeving in Jars for powders with specialized machines.</div>
+                            <div className="text">Each manufacturing block has processing and filling for liquid orals & Capsules, Compression & Coating for tablets. Primary packing area for Alu Alu & Blister tablets & Capsules. For Powders Pouch filling, Induction sealing & Sleeving in Jars is done with specialized machines.</div>
                             <div className="text">
-                            The corridors have Forced Draft Filter air filtered through 5 Micron filters. The primary filling areas have HEPA Filters with Air condition and controlled temperature & Relative Humidity.
+                            The corridors are with Forced Draft Filter to filter air through 5 Micron filters. The primary filling areas have HEPA Filters with Air condition and controlled temperature & Relative Humidity.
                             </div>
                             <div className="text">
                             The manufacturing area is supplied with Purified Water via a Loop System built as per ICH-GMP Guidelines.
@@ -70,10 +70,10 @@ export default function ServiceTabs1() {
                            </div>
                         </div>
                         <div className={activeIndex == 3 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
-                            <h4>Ware House</h4>
-                            <div className="text">The warehouse is equipped with hoists for transfer of Raw Materials, Packing Materials and Finished Product. The entire passage of the warehouse is supplied with Forced Draft Ventilation.</div>
+                            <h4>Stores</h4>
+                            <div className="text">Stores are equipped with hoists for transfer of Raw Materials, Packing Materials and Finished Product. The entire passage of the stores is provided with Forced Draft Ventilation.</div>
                             <div className="text">
-                            The Raw Materials and Finished Products are stored in rooms with Temperature Control and Monitoring.
+                            Raw Materials and Finished Products are stored in separate rooms with Temperature Control and constant Monitoring.
                             </div>
                             <div className="infraimg">
                             <img src="/assets/images/resource/warehouse.jpg"/>

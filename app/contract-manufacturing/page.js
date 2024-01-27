@@ -19,7 +19,7 @@ export default function Home() {
                                     <div className="row mb-5">
                                        
                                         <div className="col-md-12">
-                                            <div className="text"><p>Pharmaceuticals and Nutraceuticals industries play a vital role all over the world.  </p> <p>CeegoLabs specializes in manufacturing and developing Nutraceuticals and pharmaceuticals products using the cutting edge technologies offering comprehensive quality, assurance testing, Business Development solutions and contract manufacturing facilities based on our customers’ needs with the best quality at competitive prices</p><p>CEEGO LABS can work with you to turn your ideas and concepts into a retail-ready product </p></div>
+                                            <div className="text"><p>Pharmaceuticals and Nutraceuticals industries play a vital role all over the world.  </p> <p>Ceego Labs specializes in manufacturing and developing Nutraceuticals and pharmaceuticals products using the cutting edge technologies offering comprehensive quality, assurance testing, Business Development solutions and contract manufacturing facilities based on our customers’ needs with the best quality at competitive prices</p><p>CEEGO LABS can work with you to turn your ideas and concepts into a retail-ready product </p></div>
                                             
                                             <ul className="list">
                                                 <li><i className="fa fa-check" />Customer Satisfaction</li>

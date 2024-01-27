@@ -116,3 +116,29 @@
                     left: auto;
                     top: 50%;
                     right: 50px;}
+
+                    .service-block-one{display: flex;}
+
+                    .service-block-one .text{font-size: 15px; font-weight: 500;}
+
+                    .service-block-one .read-more-link{position: absolute; bottom: 15px;}
+                    .service-block-one .read-more-link:before{top: 14px;}
+                    .service-block-one .read-more-link i{top: 1px;}
+                    .about-section-six .experience-years-block{margin-top: 90px; margin-bottom: 0px;}
+                    ul.aboutlist{list-style: disc;}
+                    ul.aboutlist li{list-style: disc; margin-bottom: 10px; color: #232629;}
+
+                    .banner-section.style-two .pattern2{position: absolute;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;}
+
+                      .banner-section.style-two .pattern2::before{position: absolute;
+                        content: '';
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        bottom: 0;
+                        background-color:rgba(0, 0, 0, 0.65);
+                        background-repeat: no-repeat;}

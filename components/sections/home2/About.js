@@ -37,7 +37,7 @@ export default function About() {
                             </div>
                             {/*Testimonial Carousel*/}
                             
-                            <Link href="/about-3" className="read-more-link"><i className="flaticon-right-arrow" />More About Company</Link>
+                            <Link href="/aboutus" className="read-more-link"><i className="flaticon-right-arrow" />More About Company</Link>
                         </div>
                     </div>
                 </div>

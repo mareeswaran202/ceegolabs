@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout"
 import AuditSlider1 from "@/components/slider/AuditSlider1"
 import ServiceSlider1 from "@/components/slider/ServiceSlider1"
 import Link from "next/link"
+
 export default function Home() {
 
     return (
@@ -19,9 +20,9 @@ export default function Home() {
                                     <div className="row mb-5">
                                        
                                         <div className="col-md-12">
-                                            <div className="text"><p>We know how important quality is to your brand’s success. We carefully follow regulations and maintain a comprehensive quality system . We ensure that all YOUR product is made to strict manufacturing standards, is quality checked along the manufacturing process, and A Thorough finished product testing is conducted in our laboratories.</p>
+                                            <div className="text"><p>We know how important quality is to your brand’s success. We follow regulations and maintain a comprehensive quality system. We ensure that all YOUR products undergo strict manufacturing standards, absolute quality check along the manufacturing process, and a thorough finished product testing is conducted in our laboratories.</p>
 
-                                            <p className="mt-2">The manufacturing facility is supplemented with a well-equipped Quality Control Laboratory – Equipment include HPLC, FTIR etc. which are required for all kinds of pharmacopoeia analysis. A separate microbiology section with primary and secondary change rooms and Laminar Airflow unit is provided for carrying out microbiological analysis.</p>
+                                            <p className="mt-2">The manufacturing facility is supplemented with a well-equipped Quality analysis Laboratory - HPLC (P-series & LC-2010C), FTIR, U.V.Spectrophotometer, A separate microbiology section with primary and secondary change rooms and Laminar Airflow unit.</p>
                                             </div>
                                             
                                             <ul className="list">
