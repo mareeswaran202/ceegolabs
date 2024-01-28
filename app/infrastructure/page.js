@@ -1,10 +1,12 @@
  import ServiceTabs1 from "@/components/elements/ServiceTabs1"
 import Layout from "@/components/layout/Layout"
+import InfraBanner from "@/components/slider/Infraslider"
 
 function Infrastructure(){
     return(
         <>
-         <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Our Infrastructure" wrapperCls="home_2">
+         <Layout headerStyle={2} footerStyle={2}  wrapperCls="home_2">
+          <InfraBanner/>
                 <section className="services-details pt-5">
                     <div className="auto-container content-side">
                         <div className="row">

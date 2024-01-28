@@ -1,6 +1,6 @@
 
 'use client'
-import Link from "next/link"
+
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
@@ -61,7 +61,7 @@ export default function AboutBanner() {
                                 <div>
                                    
                                     <h2>Our Values</h2>
-                                    <h3>A healthy commitments to produce world class products and services</h3>
+                                    <h3>A healthy commitment to produce world class products and services</h3>
                                     
                                 </div>
                             </div>
