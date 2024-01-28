@@ -83,7 +83,7 @@ export default function Footer2() {
                 <div className="footer-bottom-two">
                     <div className="auto-container">
                         <div className="row m-0 justify-content-between">
-                            <div className="copyright-text">© {new Date().getFullYear()} Ceegolabs, All Rights Reserved.</div>
+                            <div className="copyright-text">© {new Date().getFullYear()} <span className="ceegotxtpara" style={{fontSize:'18px', fontWeight:'500'}}>Ceego Labs</span>, All Rights Reserved.</div>
                             <ul className="menu">
                                 <li><Link href="#">Privacy Policy </Link></li>
                                 <li><Link href="#">Terms &amp; Conditions</Link></li>

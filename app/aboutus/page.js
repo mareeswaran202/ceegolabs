@@ -24,18 +24,18 @@ export default function Home() {
                       <span className="right" />
                     </div>
                     <div className="text">
-                      Ceego Labs Provides state-of-art manufacturing facilities
+                      <span className="ceegotxtpara">Ceego Labs</span> Provides state-of-art manufacturing facilities
                       for Food Supplements, Pharmaceutical & Feed Supplement
                       Formulations. We have good Manufacturing Practices and
                       Superior quality products as a cardinal principle.Quality
-                      is paramount at Ceego Labs. Our quality processes and
+                      is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality processes and
                       procedures span every area of manufacturing from the raw
-                      materials to finished products.Our combination of highly
+                      materials to finished products. Our combination of highly
                       experienced and well Qualified professionals and latest
                       technology allows us to be a pioneer in Pharmaceutical and
                       Nutraceuticals manufacturing. We are dedicated to
                       delivering the highest possible levels of customer
-                      satisfaction.{" "}
+                      satisfaction. 
                     </div>
                   </div>
                 </div>
@@ -57,14 +57,14 @@ export default function Home() {
                   <div className="text">
                     <ul className="aboutlist">
                       <li>
-                        Since 2012, Ceego Labs Pvt Ltd is involved in P2P
+                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt Ltd is involved in P2P
                         Manufacturing and Exports of Nutraceuticals &
                         Pharmaceuticals in Tablet, Capsule, Oral Liquid, Powder
                         formulations.
                       </li>
                       <li>
-                        Ceego labs has a strong presence in both the Domestic &
-                        Global market.{" "}
+                      <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the Domestic &
+                        Global market. 
                       </li>
                       <li>
                         Our Manufacturing unit is located in an eco-friendly
@@ -101,7 +101,7 @@ export default function Home() {
                       </li>
                       <li>
                         Our Plant is equipped with Testing Room, Instrument Room
-                        & Microbiology Room.{" "}
+                        & Microbiology Room.
                       </li>
                       <li>
                         Our Unit is equipped with complete AHU system - the
@@ -117,7 +117,7 @@ export default function Home() {
                 <div className="col-lg-12 mt-5">
                   <div className="sec-title text-center">
                     <h2>
-                      Reason for choosing our <br /> Ceegolabs
+                      Reason for choosing  <br /> <span className="ceegotxtbighead">Ceego Labs</span>
                     </h2>
                     <div className="text-decoration">
                       <span className="left" />
@@ -135,7 +135,7 @@ export default function Home() {
                       </div>
                       <h4>Our Team Strength</h4>
                       <div className="text">
-                        Ceego Labs has well Experienced, Qualified and Competent
+                        <span className="ceegotxtpara">Ceego Labs</span> has well Experienced, Qualified and Competent
                         Technical Personnel in various departments.
                       </div>
                     </div>
@@ -149,7 +149,7 @@ export default function Home() {
                       </div>
                       <h4>Our Core Value</h4>
                       <div className="text">
-                        At Ceego Labs, we share a strong set of values that
+                        At <span className="ceegotxtpara">Ceego Labs</span>, we share a strong set of values that
                         shapes our business focus, objectives, and our
                         integrity. Our involvement, practices and initiatives
                         reflect in – a healthy commitment to provide world class
@@ -166,7 +166,7 @@ export default function Home() {
                       </div>
                       <h4>Customer Satisfaction</h4>
                       <div className="text">
-                        CEEGO LABS's main goal has been to solicit and promote
+                      <span className="ceegotxtpara">Ceego Labs</span> main goal has been to solicit and promote
                         ideas from its teams in order to ensure customer
                         satisfaction by providing the best final product
                         end-to-end.
@@ -210,7 +210,7 @@ export default function Home() {
                       </div>
                       <h4>Competitive Price</h4>
                       <div className="text">
-                        Ceego Labs is the company that is committed to good
+                      <span className="ceegotxtpara">Ceego Labs</span> is the company that is committed to good
                         health for all by providing quality medicines at
                         affordable prices.
                       </div>

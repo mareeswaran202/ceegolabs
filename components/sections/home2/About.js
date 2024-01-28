@@ -25,13 +25,13 @@ export default function About() {
                         </div>
                         <div className="col-lg-6">
                             <div className="sec-title style-two">
-                                <h4><span className="flaticon-endless" />About <span className="ceegotxt">Ceegolabs</span></h4>
+                                <h4><span className="flaticon-endless" />About <span className="ceegotxt">Ceego Labs</span></h4>
                                 {/* <h2>Our passion for excellence ensures the <br />highest quality of product</h2> */}
                                 <h2>Creating A Business With <br/> Authentic Integrity</h2>
 
                             </div> .
                             <div className="content-block">
-                                <div className="text"><span className="ceegotxtpara">CeegoLabs</span> Provides state-of-art manufacturing facilities for Food Supplements, Pharmaceutical & Feed Supplement Formulations. We have good Manufacturing Practices and Superior quality products as a cardinal principle.Quality is paramount at <span className="ceegotxtpara">CeegoLabs</span>. Our quality processes and procedures span every area of manufacturing from the raw materials to finished products.Our combination of highly experienced and well Qualified professionals and latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing.</div>
+                                <div className="text"><span className="ceegotxtpara">Ceego Labs</span> Provides state-of-art manufacturing facilities for Food Supplements, Pharmaceutical & Feed Supplement Formulations. We have good Manufacturing Practices and Superior quality products as a cardinal principle.Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality processes and procedures span every area of manufacturing from the raw materials to finished products.Our combination of highly experienced and well Qualified professionals and latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing.</div>
                                 
                                
                             </div>

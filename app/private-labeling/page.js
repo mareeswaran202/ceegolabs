@@ -19,7 +19,7 @@ export default function Home() {
                                     <div className="row mb-5">
                                        
                                         <div className="col-md-12">
-                                            <div className="text"><p>CEEGO LABS is equipped to efficiently handle medium and large production runs, We can manufacture a variety of delivery systems in multiple packaging formats so you can offer your customers several options.</p></div>
+                                            <div className="text"><p><span className="ceegotxtpara">Ceego Labs</span> is equipped to efficiently handle medium and large production runs, We can manufacture a variety of delivery systems in multiple packaging formats so you can offer your customers several options.</p></div>
                                             
                                             <ul className="list">
                                                 <li><i className="fa fa-check" />Customer Satisfaction</li>

@@ -18,7 +18,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-up" /></div></div>
                                 <h4>Contract Manufacturing</h4>
-                                <div className="text">Ceego Labs specializes in manufacturing and developing Nutraceuticals and pharmaceuticals products.</div>
+                                <div className="text"><span className="ceegotxtpara2">Ceego Labs</span> specializes in manufacturing and developing Nutraceuticals and pharmaceuticals products.</div>
                                 <Link href="/contract-manufacturing" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
