@@ -26,7 +26,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-chart" /></div></div>
                                 <h4>Quality Complaince</h4>
-                                <div className="text">We know how important quality is to your brand’s success. We carefully follow regulations and maintain a comprehensive quality system .</div>
+                                <div className="text">Our quality compliance team delivers highest quality excellence. To ensure the unwavering trust of our clients we strictly adhere to all the regulatory requirements.</div>
                                 <Link href="/quality-complaince" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-business-and-finance" /></div></div>
                                 <h4>Custom Packing</h4>
-                                <div className="text">We equipped to efficiently handle medium and large production runs, We can manufacture a variety of delivery systems in multiple packaging formats.</div>
+                                <div className="text">We provide options to create perfect boxes that best suits your needs.</div>
                                 <Link href="/custom-packaging" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Services() {
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-support" /></div></div>
                                 <h4>Distribution Support</h4>
-                                <div className="text">As one of our service private label manufacturer, we have a strict focus on quality in our manufacturing operation. </div>
+                                <div className="text">For optimizing your products reach and to maintain a steady supply, we consolidate and handle the delivery of your products. </div>
                                 <Link href="/distribution-support" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>

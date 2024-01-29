@@ -206,6 +206,8 @@ ul.aboutlist li {
   font-weight: 500;
 }
 
+ul.aboutlist li::marker{color: #f84411;}
+
 .banner-section.style-two .pattern2 {
   position: absolute;
   top: 0;
@@ -259,3 +261,24 @@ ul.aboutlist li {
   font-weight: 700;
   word-spacing: -6px;
 }
+
+.subscribe-newsletter-three .content-box h4{
+  font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+    line-height: 27px;
+}
+
+.services-details .content-side h2{
+  position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.subscribe-newsletter-three .content-box .lower-content{height: 200px;}
