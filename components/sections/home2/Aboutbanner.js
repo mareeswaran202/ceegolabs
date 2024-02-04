@@ -32,7 +32,7 @@ const swiperOptions = {
 }
 
 
-export default function AboutBanner() {
+export default function AboutBanner(props) {
     return (
         <>
             <section className="banner-section style-two">
@@ -45,8 +45,8 @@ export default function AboutBanner() {
                             <div className="content-box">
                                 <div>
                                   
-                                    <h2>Our Vision </h2>
-                                    <h3>Innovation - Forward thinking, confidence-conviction, <br/> Respect-Embracing difference,Solidarity-Social responsibility,<br/> Integrity-Acting ethically</h3>
+                                    <h2>{props.headertxtone}</h2>
+                                    <h3>{props.subheadertxtone}</h3>
                                     
                                 </div>
                             </div>

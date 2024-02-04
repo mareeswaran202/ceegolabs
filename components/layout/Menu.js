@@ -21,10 +21,11 @@ export default function Menu() {
                         <li><Link href="/aboutus">About Us</Link>
                        
                         </li>
-                        <li><Link href="/infrastructure">Infrastructure</Link></li>
-                        {/* <li><Link href="/team-3">Meet Our Team</Link>
+                        <li><Link href="/capabilities">Capabilities</Link>
                             
-                        </li> */}
+                            </li> 
+                        <li><Link href="/infrastructure">Infrastructure</Link></li>
+                       
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="#">Services</Link>

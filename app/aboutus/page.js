@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div>
           <section className="about-section-six pt-0">
-          <AboutBanner/>
+          <AboutBanner headertxtone='Our Vision' subheadertxtone='Innovation - Forward thinking, confidence-conviction, <br/> Respect-Embracing difference,Solidarity-Social responsibility,<br/> Integrity-Acting ethically'/>
             <div className="auto-container mt-5">
               <div className="row">
                 <div className="col-lg-6 content-column">

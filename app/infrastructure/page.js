@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import InfraBanner from "@/components/slider/Infraslider";
 import Newsletter from "@/components/elements/Newsletter";
 
+
 function Infrastructure() {
   return (
     <>

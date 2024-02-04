@@ -282,3 +282,16 @@ ul.aboutlist li::marker{color: #f84411;}
 }
 
 .subscribe-newsletter-three .content-box .lower-content{height: 200px;}
+.case-block-one .overlay .content h5{color:#292929;}
+
+.pricing-block .lower-content ul li{padding-left: 0px;}
+.pricing-block .lower-content ul li{font-weight: 500;}
+.pricing-block .lower-content::before{background: transparent;}
+.pricing-block{border-right: 1px solid rgb(225, 229, 233);
+}
+.pricing-block .top-content{border-top-left-radius: 0px;
+  border-top-right-radius: 0px;}
+  .lowercontent2{display: flex;
+    flex-direction: column;
+    align-items: center;}
+    .pricing-block .lower-content2 ul{display: flex; flex-direction: column;}
