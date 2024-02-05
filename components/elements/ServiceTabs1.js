@@ -9,7 +9,7 @@ export default function ServiceTabs1() {
     return (
         <>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <ul className="nav nav-tabs tab-btn-style-one mr-md-4" role="tablist">
                         <li className="nav-item" onClick={() => handleOnClick(1)}>
                             <a className={activeIndex == 1 ? "nav-link active" : "nav-link"}>01. Production
@@ -27,22 +27,13 @@ export default function ServiceTabs1() {
                         </li>
                         <li className="nav-item" onClick={() => handleOnClick(4)}>
                             <a className={activeIndex == 4 ? "nav-link active" : "nav-link"}>
-                                04. Environment Management
+                                04. Environment Mgmt
                             </a>
                         </li>
-                        {/* <li className="nav-item" onClick={() => handleOnClick(5)}>
-                            <a className={activeIndex == 5 ? "nav-link active" : "nav-link"}>
-                                05. Uncompromised Quality
-                            </a>
-                        </li>
-                        <li className="nav-item" onClick={() => handleOnClick(6)}>
-                            <a className={activeIndex == 6 ? "nav-link active" : "nav-link"}>
-                                06. Competitive Price
-                            </a>
-                        </li> */}
+                        
                     </ul>
                 </div>
-                <div className="col-md-7">
+                <div className="col-md-9">
                     {/* Tab panes */}
                     <div className="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div className={activeIndex == 1 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
@@ -54,8 +45,8 @@ export default function ServiceTabs1() {
                             <div className="text">
                             The manufacturing area is supplied with Purified Water via a Loop System built as per ICH-GMP Guidelines.
                             </div>
-                            <div className="infraimg">
-                            <img src="/assets/images/resource/production.png"/>
+                            <div>
+                            {/* <img src="/assets/images/resource/production-1.jpg"/> */}
                             </div>
                             
                         </div>
@@ -65,7 +56,7 @@ export default function ServiceTabs1() {
                             <div className="text">
                             A separate microbiology section with primary and secondary change rooms and Laminar Airflow unit is provided for carrying out microbiological analysis.
                             </div>
-                           <div className="infraimg">
+                           <div className="infraimg d-none">
                            <img src="/assets/images/resource/meter.jpg"/>
                            </div>
                         </div>
@@ -75,7 +66,7 @@ export default function ServiceTabs1() {
                             <div className="text">
                             Raw Materials and Finished Products are stored in separate rooms with Temperature Control and constant Monitoring.
                             </div>
-                            <div className="infraimg">
+                            <div className="infraimg d-none">
                             <img src="/assets/images/resource/warehouse.jpg"/>
                             </div>
                         </div>
@@ -85,20 +76,11 @@ export default function ServiceTabs1() {
                             <div className="text">
                             To this effect, a Solvent Stripping and Recovery System and an Effluent Treatment Plant has been installed operated and monitored on a daily basis.
                             </div>
-                            <div className="infraimg">
+                            <div className="infraimg d-none">
                             <img src="/assets/images/resource/schamber.jpg"/>
                             </div>
                         </div>
-                        {/* <div className={activeIndex == 5 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
-                            <h4>Uncompromised Quality</h4>
-                            <div className="text">Our passion for excellence ensures the highest quality of product.</div>
-                            
-                        </div>
-                        <div className={activeIndex == 6 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
-                            <h4>Competitive Price</h4>
-                            <div className="text">Ceego Labs is the company that is committed to good health for all by providing quality medicines at affordable prices.</div>
-                             
-                        </div> */}
+                          
                     </div>
                 </div>
             </div>

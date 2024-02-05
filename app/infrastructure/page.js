@@ -2,6 +2,7 @@ import ServiceTabs1 from "@/components/elements/ServiceTabs1";
 import Layout from "@/components/layout/Layout";
 import InfraBanner from "@/components/slider/Infraslider";
 import Newsletter from "@/components/elements/Newsletter";
+ 
 
 
 function Infrastructure() {
@@ -61,6 +62,7 @@ function Infrastructure() {
                 <ServiceTabs1 />
               </div>
             </div>
+            
           </div>
         </section>
       </Layout>
