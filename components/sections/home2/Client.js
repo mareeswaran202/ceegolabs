@@ -10,7 +10,7 @@ export default function Client() {
                             <h4><span className="flaticon-endless" />Our Customers</h4>
                             <h2>We Proud to Work</h2>
                         </div>
-                        <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry<br />Lorem Ipsum has been the industry's.</div>
+                        <div className="text d-none">Lorem Ipsum is simply dummy text of the printing and typesetting industry<br />Lorem Ipsum has been the industry's.</div>
                     </div>
                     <div className="wrapper-box">
                         <div className="outer-box">
