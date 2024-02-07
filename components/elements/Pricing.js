@@ -81,8 +81,8 @@ export default function Pricing() {
                           </div>
                         </div>
                         <div className="lower-content">
-                          {/* <h5>Tablets</h5>
-                                                    <h4>Power of choice is untrammelled and <br />do what we like best.</h4> */}
+                         
+                           
                           <ul>
                             <li>
                               <i className="flaticon-tick" />
@@ -94,7 +94,7 @@ export default function Pricing() {
                             </li>
                             <li>
                               <i className="flaticon-tick" />
-                              Sustained release tablets
+                              Sustained release Tablets
                             </li>
                             <li>
                               <i className="flaticon-tick" />
@@ -102,23 +102,26 @@ export default function Pricing() {
                             </li>
                             <li>
                               <i className="flaticon-tick" />
-                              Effervescent tablets
+                              Effervescent Tablets
                             </li>
                             <li>
                               <i className="flaticon-tick" />
-                              Chewable tablets
+                              Chewable Tablets
                             </li>
                             <li>
                               <i className="flaticon-tick" />
-                              Mouth dissolving tablets
+                              Mouth dissolving Tablets
                             </li>
                             <li>
                               <i className="flaticon-tick" />
-                              Uncoated tablets
+                              Uncoated Tablets
+                            </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              Compressed Tablets
                             </li>
                           </ul>
-                          {/* <div className="link-btn"><Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Get Started a Free Trail</span></Link></div>
-                                                    <div className="hint"><span>*</span> No credit card required</div> */}
+                          
                         </div>
                       </div>
                     </div>
@@ -131,12 +134,11 @@ export default function Pricing() {
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
                             <div className="category">Capsules</div>
-                            {/* <div className="price"><span>$</span>45.00 <sub>/mo</sub></div> */}
+                             
                           </div>
                         </div>
                         <div className="lower-content">
-                          {/* <h5>for Large Business</h5>
-                                                    <h4>Matters to  principle of selection our <br />pleasures to secure.</h4> */}
+                           
                           <ul>
                             <li>
                               <i className="flaticon-tick" />
@@ -151,8 +153,7 @@ export default function Pricing() {
                               Tablet in Capsules
                             </li>
                           </ul>
-                          {/* <div className="link-btn"><Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Get Started a Free Trail</span></Link></div>
-                                                    <div className="hint"><span>*</span> No credit card required</div> */}
+                           
                         </div>
                       </div>
                     </div>
@@ -250,6 +251,10 @@ export default function Pricing() {
                               <i className="flaticon-tick" />
                               Suspensions
                             </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              Elixirs
+                            </li> 
                           </ul>
                         </div>
                       </div>

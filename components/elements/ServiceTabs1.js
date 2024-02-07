@@ -38,7 +38,7 @@ export default function ServiceTabs1() {
                     <div className="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div className={activeIndex == 1 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
                             <h4>Production</h4>
-                            <div className="text">Each manufacturing block has processing and filling for liquid orals & Capsules, Compression & Coating for tablets. Primary packing area for Alu Alu & Blister tablets & Capsules. For Powders Pouch filling, Induction sealing & Sleeving in Jars is done with specialized machines.</div>
+                            <div className="text">Each manufacturing block has processing and filling for liquid orals & Capsules, Compression & Coating for Tablets. Primary packing area for Alu Alu & Blister Tablets & Capsules. For Powders Pouch filling, Induction sealing & Sleeving in Jars is done with specialized machines.</div>
                             <div className="text">
                             The corridors are with Forced Draft Filter to filter air through 5 Micron filters. The primary filling areas have HEPA Filters with Air condition and controlled temperature & Relative Humidity.
                             </div>
@@ -52,7 +52,8 @@ export default function ServiceTabs1() {
                         </div>
                         <div className={activeIndex == 2 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
                             <h4>Quality Control</h4>
-                            <div className="text">The manufacturing facility is also supplemented with a well-equipped Quality Control Laboratory which has state of the art equipment like HPLC, FTIR . which are required for  pharmacopoeia analysis.</div>
+                            <div className="text">The manufacturing facility is also supplemented with a well-equipped Quality Control Laboratory which has state of the art equipment like HPLC, FITR, Chromatography, Dissolution equipment, Karl fischner Titrator, Polarimeter, Analytical
+balance, PH meter, Refractometer, Friability tester which are required for  pharmacopoeia analysis.</div>
                             <div className="text">
                             A separate microbiology section with primary and secondary change rooms and Laminar Airflow unit is provided for carrying out microbiological analysis.
                             </div>

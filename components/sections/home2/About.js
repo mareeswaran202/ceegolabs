@@ -31,7 +31,7 @@ export default function About() {
 
                             </div> .
                             <div className="content-block">
-                                <div className="text"><span className="ceegotxtpara">Ceego Labs</span> Provides state-of-art manufacturing facilities for Food Supplements, Pharmaceutical & Feed Supplement Formulations. We have good Manufacturing Practices and Superior quality products as a cardinal principle.Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality processes and procedures span every area of manufacturing from the raw materials to finished products.Our combination of highly experienced and well Qualified professionals and latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing.</div>
+                                <div className="text"><span className="ceegotxtpara">Ceego Labs</span> provides state-of-the-art manufacturing facilities for Food Supplements, Pharmaceutical and Feed Supplement Formulations. We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality check processes and procedures span every area of manufacturing, from raw materials to finished products. Our combination of highly experienced, well-qualified professionals and the latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing. We are dedicated to delivering the highest possible levels of customer satisfaction.</div>
                                 
                                
                             </div>

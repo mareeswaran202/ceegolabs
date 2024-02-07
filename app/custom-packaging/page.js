@@ -22,10 +22,12 @@ export default function Home() {
                                             <div className="text"><p><span className="ceegotxtpara">Ceego Labs</span> is equipped to efficiently handle medium and large production runs, We can manufacture a variety of delivery systems in multiple packaging formats so you can offer your customers several options. </p></div>
                                             
                                             <ul className="list">
-                                                <li><i className="fa fa-check" />Customer Satisfaction</li>
-                                                <li><i className="fa fa-check" />Uncompromised Quality</li>
-                                                <li><i className="fa fa-check" />Latest Technology</li>
-                                                <li><i className="fa fa-check" />Competitice Price</li>
+                                                <li><i className="fa fa-check" />Blister packs</li>
+                                                <li><i className="fa fa-check" />Sachets</li>
+                                                <li><i className="fa fa-check" />Containers</li>
+                                                <li><i className="fa fa-check" />Strips</li>
+                                                <li><i className="fa fa-check" />Bottles</li>
+                                                <li><i className="fa fa-check" />Foil</li>
                                                  
                                             </ul>
                                         </div>

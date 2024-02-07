@@ -33,7 +33,7 @@ function Infrastructure() {
                     Manufacturing Blocks and 1 Separate Milling Room. The
                     installed capacity is more than 10 KL per shift for Liquid
                     orals with dedicated Stainless-Steel tanks for manufacturing
-                    and filling, 750kg granules for tablets per shift & 2000 Kg
+                    and filling, 750kg granules for Tablets per shift & 2000 Kg
                     for Powder per shift.The production areas have dedicated men
                     and material movement passages, and each manufacturing block
                     has clean corridors and airlocks.

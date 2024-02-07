@@ -24,18 +24,7 @@ export default function Home() {
                       <span className="right" />
                     </div>
                     <div className="text">
-                      <span className="ceegotxtpara">Ceego Labs</span> Provides state-of-art manufacturing facilities
-                      for Food Supplements, Pharmaceutical & Feed Supplement
-                      Formulations. We have good Manufacturing Practices and
-                      Superior quality products as a cardinal principle.Quality
-                      is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality processes and
-                      procedures span every area of manufacturing from the raw
-                      materials to finished products. Our combination of highly
-                      experienced and well Qualified professionals and latest
-                      technology allows us to be a pioneer in Pharmaceutical and
-                      Nutraceuticals manufacturing. We are dedicated to
-                      delivering the highest possible levels of customer
-                      satisfaction. 
+                    <span className="ceegotxtpara">Ceego Labs</span> provides state-of-the-art manufacturing facilities for Food Supplements, Pharmaceutical and Feed Supplement Formulations. We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality check processes and procedures span every area of manufacturing, from raw materials to finished products. Our combination of highly experienced, well-qualified professionals and the latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing. We are dedicated to delivering the highest possible levels of customer satisfaction.
                     </div>
                   </div>
                 </div>
@@ -57,26 +46,17 @@ export default function Home() {
                   <div className="text">
                     <ul className="aboutlist">
                       <li>
-                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt Ltd is involved in P2P
-                        Manufacturing and Exports of Nutraceuticals &
-                        Pharmaceuticals in Tablet, Capsule, Oral Liquid, Powder
-                        formulations.
+                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt. Ltd. has been involved in P2P manufacturing and exports of Nutraceuticals and Pharmaceuticals in Tablet, Capsule, Oral Liquid, and Powder formulations.
                       </li>
                       <li>
-                      <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the Domestic &
-                        Global market. 
+                      <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the domestic and global markets. 
                       </li>
                       <li>
-                        Our Manufacturing unit is located in an eco-friendly
-                        area 45km from Chennai, India with a built up area of
-                        48,000 sq.ft on 3 acres of and. It is designed as per
-                        the latest GMP, GLP and ISO 22000: 2005 specifications.
+                      Our manufacturing unit is located in an eco-friendly area 45km from Chennai, India, with a built-up area of 48,000 sq. ft. on 3 acres of land. It is designed as per the latest GMP, GLP, and ISO 22000:2005.
+specifications 
                       </li>
                       <li>
-                        With our driven commitment for innovation, service, and
-                        quality we strive to be at forefront of manufacturing
-                        with state of art facility with the latest technology
-                        and research backed formulations.
+                      With our driven commitment to innovation, service, and quality, we strive to be at the forefront of manufacturing with state-of-the-art facilities with the latest technology and research-backed formulations.
                       </li>
                     </ul>
                   </div>

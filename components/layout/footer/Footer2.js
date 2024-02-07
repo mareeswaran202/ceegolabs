@@ -59,13 +59,13 @@ export default function Footer2() {
                                     <div className="widget-content">
                                          
                                         <div className="text">
-                                            <p className="text">Old 96 / 6 , New 23 / 6,</p>
-                                            <p className="text">Dr.Ambethkar Road ,1st Floor, Kodambakkam,</p>
-                                            <p className="text">Chennai, Tamil Nadu 600024</p>
+                                            <p className="text">23/6, First floor, Dr.Ambethkar Road,</p>
+                                            <p className="text">Kodambakkam, Chennai - 600024,</p>
+                                            <p className="text">Tamil Nadu </p>
                                             </div>
                                         <ul className="list">
                                             <li>Call Us :  <Link href="tel:044-27259100">044-27259100</Link></li>
-                                            <li>Mail us :  <Link href="mailto:support@ceegolabs.com">support@ceegolabs.com</Link></li>
+                                            <li>Mail us :  <Link href="mailto:info@ceegolabs.com">info@ceegolabs.com</Link></li>
                                         </ul>
                                         <ul className="social-links clearfix d-none">
                                             <li><Link href="#"><span className="fab fa-facebook-f" /></Link></li>

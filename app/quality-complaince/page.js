@@ -29,7 +29,7 @@ export default function Home() {
                                                 <li><i className="fa fa-check" />Customer Satisfaction</li>
                                                 <li><i className="fa fa-check" />Uncompromised Quality</li>
                                                 <li><i className="fa fa-check" />Latest Technology</li>
-                                                <li><i className="fa fa-check" />Competitice Price</li>
+                                                <li><i className="fa fa-check" />CompetitivePrice</li>
                                                  
                                             </ul>
                                         </div>
