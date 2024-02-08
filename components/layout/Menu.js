@@ -25,6 +25,7 @@ export default function Menu() {
                             
                             </li> 
                         <li><Link href="/infrastructure">Infrastructure</Link></li>
+                        <li><Link href="/research-and-development">Research & Development</Link></li>
                        
                     </ul>
                 </li>

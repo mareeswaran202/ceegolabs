@@ -9,7 +9,7 @@ import Footer2 from './footer/Footer2'
 import Header2 from './header/Header2'
 
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
+export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls, breadcrumbbg }) {
     const [scroll, setScroll] = useState()
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -34,7 +34,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 
                 <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
+                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} breadcrumbbg={breadcrumbbg} />}
 
                 {children}
 
