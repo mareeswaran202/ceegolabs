@@ -40,15 +40,15 @@ export default function Banner() {
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/4.jpg" />
-                        <div className="pattern" />
+                        <div className="pattern2" />
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Strategy &amp; Planning</h3>
                                     <h2>Nutraceuticals </h2>
-                                    <div className="btn-box">
+                                    {/* <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-four"><span className="btn-title">Read More</span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -56,15 +56,15 @@ export default function Banner() {
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/5.jpg" />
-                        <div className="pattern" />
+                        <div className="pattern2" />
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Support and Maintenance</h3>
                                     <h2>New Product<br/> Development</h2>
-                                    <div className="btn-box">
+                                    {/* <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-four"><span className="btn-title">Read More</span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -72,16 +72,16 @@ export default function Banner() {
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
                         <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/6.jpg" />
-                        <div className="pattern" />
+                        <div className="pattern2" />
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
                                 <div>
                                     <h3 className="d-none">Pharmaceuticals</h3>
                                     <h2 className="d-none">Unique <br /> solution from <br /> expert team.</h2>
                                     <h2>Pharmaceuticals</h2>
-                                    <div className="btn-box">
+                                    {/* <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-four"><span className="btn-title">Read More</span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

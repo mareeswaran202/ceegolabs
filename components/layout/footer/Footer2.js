@@ -64,7 +64,7 @@ export default function Footer2() {
                                             <p className="text">Tamil Nadu </p>
                                             </div>
                                         <ul className="list">
-                                            <li>Call Us :  <Link href="tel:044-27259100">044-27259100</Link></li>
+                                            {/* <li>Call Us :  <Link href="tel:044-27259100">044-27259100</Link></li> */}
                                             <li>Mail us :  <Link href="mailto:info@ceegolabs.com">info@ceegolabs.com</Link></li>
                                         </ul>
                                         <ul className="social-links clearfix d-none">

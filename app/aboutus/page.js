@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import TestimonialSlider2 from "@/components/slider/TestimonialSlider2";
+import Award from "@/components/slider/Award";
 import AboutBanner from "@/components/sections/home2/Aboutbanner";
 import "@/public/assets/css/custom.css";
 export default function Home() {
@@ -204,8 +205,9 @@ specifications 
           {/* Services Section five */}
 
           {/* Award Section */}
+          <Award/>
           <section
-            className="award-section style-two"
+            className="award-section style-two d-none"
             style={{
               backgroundImage: "url(assets/images/background/bg-21.jpg)",
             }}
