@@ -39,7 +39,7 @@ export default function Banner() {
                 <Swiper {...swiperOptions} className="banner-carousel theme_carousel owl-theme">
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/4.jpg" />
+                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/nutraceuticals.jpg" />
                         <div className="pattern2" />
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
