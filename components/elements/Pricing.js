@@ -39,7 +39,7 @@ export default function Pricing() {
                     Capacity
                   </a>
                 </li>
-                <li className="nav-item" onClick={() => handleOnClick(3)}>
+                {/* <li className="nav-item" onClick={() => handleOnClick(3)}>
                   <a
                     className={
                       activeIndex == 3 ? "nav-link active" : "nav-link"
@@ -47,7 +47,7 @@ export default function Pricing() {
                   >
                     Packaging
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -81,8 +81,6 @@ export default function Pricing() {
                           </div>
                         </div>
                         <div className="lower-content">
-                         
-                           
                           <ul>
                             <li>
                               <i className="flaticon-tick" />
@@ -121,7 +119,6 @@ export default function Pricing() {
                               Compressed Tablets
                             </li>
                           </ul>
-                          
                         </div>
                       </div>
                     </div>
@@ -134,11 +131,9 @@ export default function Pricing() {
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
                             <div className="category">Capsules</div>
-                             
                           </div>
                         </div>
                         <div className="lower-content">
-                           
                           <ul>
                             <li>
                               <i className="flaticon-tick" />
@@ -153,7 +148,6 @@ export default function Pricing() {
                               Tablet in Capsules
                             </li>
                           </ul>
-                           
                         </div>
                       </div>
                     </div>
@@ -254,7 +248,7 @@ export default function Pricing() {
                             <li>
                               <i className="flaticon-tick" />
                               Elixirs
-                            </li> 
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -269,7 +263,6 @@ export default function Pricing() {
                     : "tab-pane fadeInUp animated"
                 }
               >
-                
                 <div className="wrapper-box">
                   <div className="row m-0">
                     <div
@@ -284,49 +277,97 @@ export default function Pricing() {
                           </div>
                         </div>
                         <div className="lower-content lowercontent2">
-                        <section className="heighlight-section">
-                        <div>
-                            <div className="row">
+                          <section className="heighlight-section pt-5">
+                            <div>
+                              <div className="row pb-3">
+                                <div className="col">
+                                  <p className="capacitypara"><i class="far fa-dot-circle"></i>The installed capacity is more than 10 KL
+                                      per shift for liquid orals with dedicated
+                                      stainless steel tanks for manufacturing
+                                      and filling, 750 kg of granules for
+                                      Tablets per shift, and 2000 kg of powder
+                                      per shift.</p>
+                                      
+                                     
+                                   
+                                </div>
+                              </div>
+                              <div className="row mt-5">
                                 <div className="col-lg-3 heighlight-block">
-                                    <div className="inner-box">
-                                        <div className="icon"><img src="/assets/images/resource/capacity-tablets.png" alt="" /></div>
-                                        <h4>Tablets</h4>
-                                         
-                                        <div className="link-btn theme-btn btn-style-cap"><span className="btn-titles">50 Crores</span></div>
+                                  <div className="inner-box">
+                                    <div className="icon">
+                                      <img
+                                        src="/assets/images/resource/capacity-tablets.png"
+                                        alt=""
+                                      />
                                     </div>
+                                    <h4>Tablets</h4>
+
+                                    <div className="link-btn theme-btn btn-style-cap">
+                                      <span className="btn-titles">
+                                        50 Crores
+                                      </span>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div className="col-lg-3 heighlight-block">
-                                    <div className="inner-box">
-                                        <div className="icon"><img src="/assets/images/resource/capacity-capsules.png" alt="" /></div>
-                                        <h4>Capsules</h4>
-                                        <div className="link-btn theme-btn btn-style-cap"><span className="btn-titles">20 Crores</span></div>
+                                  <div className="inner-box">
+                                    <div className="icon">
+                                      <img
+                                        src="/assets/images/resource/capacity-capsules.png"
+                                        alt=""
+                                      />
                                     </div>
+                                    <h4>Capsules</h4>
+                                    <div className="link-btn theme-btn btn-style-cap">
+                                      <span className="btn-titles">
+                                        20 Crores
+                                      </span>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div className="col-lg-3 heighlight-block">
-                                    <div className="inner-box">
-                                        <div className="icon"><img src="/assets/images/resource/capacity-liquids.png" alt="" /></div>
-                                        <h4>Liquids</h4>
-                                        <div className="link-btn theme-btn btn-style-cap"><span className="btn-titles">5 Crores</span></div>
+                                  <div className="inner-box">
+                                    <div className="icon">
+                                      <img
+                                        src="/assets/images/resource/capacity-liquids.png"
+                                        alt=""
+                                      />
                                     </div>
+                                    <h4>Liquids</h4>
+                                    <div className="link-btn theme-btn btn-style-cap">
+                                      <span className="btn-titles">
+                                        5 Crores
+                                      </span>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div className="col-lg-3 heighlight-block">
-                                    <div className="inner-box">
-                                        <div className="icon"><img src="/assets/images/resource/capacity-powder.png" alt="" /></div>
-                                        <h4>Powders</h4>
-                                        <div className="link-btn theme-btn btn-style-cap"><span className="btn-titles">1000 Tons</span></div>
+                                  <div className="inner-box">
+                                    <div className="icon">
+                                      <img
+                                        src="/assets/images/resource/capacity-powder.png"
+                                        alt=""
+                                      />
                                     </div>
+                                    <h4>Powders</h4>
+                                    <div className="link-btn theme-btn btn-style-cap">
+                                      <span className="btn-titles">
+                                        1000 Tons
+                                      </span>
+                                    </div>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
-                        </div>
-                    </section>
-                           
+                          </section>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className={
                   activeIndex == 3
                     ? "tab-pane fadeInUp animated show active"
@@ -477,7 +518,7 @@ export default function Pricing() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

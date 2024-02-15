@@ -25,7 +25,7 @@ export default function Menu() {
                             
                             </li> 
                         <li><Link href="/infrastructure">Infrastructure</Link></li>
-                        <li><Link href="/research-and-development">Research & Development</Link></li>
+                        {/* <li><Link href="/research-and-development">Research & Development</Link></li> */}
                        
                     </ul>
                 </li>
@@ -33,7 +33,7 @@ export default function Menu() {
                     <ul>
                        
                         <li><Link href="/contract-manufacturing">Contract Manufacturing</Link></li>
-                        <li><Link href="/quality-complaince">Quality Compliance</Link></li>
+                        {/* <li><Link href="/quality-complaince">Quality Compliance</Link></li> */}
                         <li><Link href="/private-labeling">Private Labeling</Link></li>
                         <li><Link href="/custom-packaging">Custom Packaging</Link></li>
                         <li><Link href="/distribution-support">Distribution Support</Link></li>

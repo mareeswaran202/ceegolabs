@@ -52,8 +52,7 @@ export default function ServiceTabs1() {
                         </div>
                         <div className={activeIndex == 2 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
                             <h4>Quality Control</h4>
-                            <div className="text">The manufacturing facility is also supplemented with a well-equipped Quality Control Laboratory which has state of the art equipment like HPLC, FITR, Chromatography, Dissolution equipment, Karl fischner Titrator, Polarimeter, Analytical
-balance, PH meter, Refractometer, Friability tester which are required for  pharmacopoeia analysis.</div>
+                            <div className="text">Quality Control Laboratory is supplemented with state of the art equipment like HPLC, FITR, Chromatography, Dissolution equipment, Karl fischner Titrator, Polarimeter, Analytical balance, PH meter, Refractometer, Friability tester which are required for pharmacopoeia analysis.</div>
                             <div className="text">
                             A separate microbiology section with primary and secondary change rooms and Laminar Airflow unit is provided for carrying out microbiological analysis.
                             </div>
@@ -63,7 +62,7 @@ balance, PH meter, Refractometer, Friability tester which are required for  phar
                         </div>
                         <div className={activeIndex == 3 ? "tab-pane fadeInUp animated show active" : "tab-pane fadeInUp animated"}>
                             <h4>Stores</h4>
-                            <div className="text">Stores are equipped with hoists for transfer of Raw Materials, Packing Materials and Finished Product. The entire passage of the stores is provided with Forced Draft Ventilation.</div>
+                            <div className="text">Stores are supplied with hoists for transfer of Raw Materials, Packing Materials and Finished Product. The entire passage of the stores is provided with Forced Draft Ventilation.</div>
                             <div className="text">
                             Raw Materials and Finished Products are stored in separate rooms with Temperature Control and constant Monitoring.
                             </div>

@@ -435,3 +435,15 @@ ul.aboutlist li::marker {
     line-height: 1.50em;}
 
     .main-menu .navigation{margin-top: 6px;}
+    .capacitypara{font-size: 20px;
+      font-weight: 600;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      gap: 10px;}
+
+      .capacitypara i{color: #f84411;}
+      .sec-title h2{padding-bottom: 15px;}
+      .services-details .content-side h2{margin-bottom: 0px; padding-bottom: 15px;}
+      .services-details .content-side .list li{display: flex;}

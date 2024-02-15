@@ -37,14 +37,14 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                        </li>
                        <li><Link href="/capabilities">Capabilities</Link></li>
                        <li><Link href="/infrastructure">Infrastructure</Link></li>
-                       <li><Link href="/research-and-development">Research & Development</Link></li>
+                       {/* <li><Link href="/research-and-development">Research & Development</Link></li> */}
                                     </ul>
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/#">Services</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                     <li><Link href="/contract-manufacturing">Contract Manufacturing</Link></li>
-                        <li><Link href="/quality-complaince">Quality Compliance</Link></li>
+                        {/* <li><Link href="/quality-complaince">Quality Compliance</Link></li> */}
                         <li><Link href="/private-labeling">Private Labeling</Link></li>
                         <li><Link href="/custom-packaging">Custom Packaging</Link></li>
                         <li><Link href="/distribution-support">Distribution Support</Link></li>

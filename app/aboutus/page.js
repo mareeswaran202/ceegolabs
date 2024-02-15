@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout";
-import TestimonialSlider2 from "@/components/slider/TestimonialSlider2";
 import Award from "@/components/slider/Award";
 import AboutBanner from "@/components/sections/home2/Aboutbanner";
 import "@/public/assets/css/custom.css";
@@ -47,52 +46,32 @@ export default function Home() {
                   <div className="text">
                     <ul className="aboutlist">
                       <li>
-                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt. Ltd. has been involved in P2P manufacturing and exports of Nutraceuticals and Pharmaceuticals in Tablet, Capsule, Oral Liquid, and Powder formulations.
+                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt. Ltd. has been involved in P2P manufacturing and exports of Nutraceuticals, Pharmaceuticals and Feed Supplement Formulations.
                       </li>
-                      <li>
+                      {/* <li>
                       <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the domestic and global markets. 
-                      </li>
+                      </li> */}
                       <li>
-                      Our manufacturing unit is located in an eco-friendly area 45km from Chennai, India, with a built-up area of 48,000 sq. ft. on 3 acres of land. It is designed as per the latest GMP, GLP, and ISO 22000:2005.
-specifications 
+                        Our manufacturing unit is located in an eco-friendly area 45km from Chennai, India, with a built-up area of 48,000 sq. ft. on 3 acres of land. It is designed as per the latest GMP, GLP, and ISO 22000:2005. specifications  
                       </li>
-                      <li>
-                      With our driven commitment to innovation, service, and quality, we strive to be at the forefront of manufacturing with state-of-the-art facilities with the latest technology and research-backed formulations.
-                      </li>
+                      <li>We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span></li>
+                     
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="sec-title text-center mb-0">
-                    <h2 style={{ textAlign: "left", fontSize: "25px" }}>
-                      Our Quality Standards
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
+              
+             <div className="auto-container" style={{width:'905px'}}>
+             <div className="row">
                 <div className="col-lg-12 content-column">
-                  <div className="text mt-0">
-                    <ul className="aboutlist">
-                      <li>
-                        Quality Management department is headed by Specialized
-                        Pharmacists, Engineers, and Microbiologists.
-                      </li>
-                      <li>
-                        Our Plant is equipped with Testing Room, Instrument Room
-                        & Microbiology Room.
-                      </li>
-                      <li>
-                        Our Unit is equipped with complete AHU system - the
-                        Standard of ISO 22000: 2005 & WHO GMP certification for
-                        Food Supplements
-                      </li>
-                    </ul>
+                <div className="sec-title">
+                <div className="text mt-0 text-center">
+                  With our driven commitment to innovation, service, and quality, we strive to be at the forefront of manufacturing with state-of-the-art facilities and the latest technology and research-backed formulations.
                   </div>
                 </div>
+                </div>
               </div>
+             </div>
 
               <div className="row">
                 <div className="col-lg-12 mt-5">
@@ -270,20 +249,7 @@ specifications 
               </div>
             </div>
           </section>
-          {/* Testimonail Section Two */}
-          <section className="testimonial-section-two">
-            <div className="auto-container">
-              <div className="sec-title text-center">
-                <h2>Words from our customers</h2>
-                <div className="text-decoration">
-                  <span className="left" />
-                  <span className="right" />
-                </div>
-              </div>
-              {/*Theme Carousel*/}
-              <TestimonialSlider2 />
-            </div>
-          </section>
+         
           {/* Client Logo */}
           <section className="client-section-two style-three">
             <div className="auto-container">
