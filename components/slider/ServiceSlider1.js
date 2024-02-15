@@ -51,7 +51,7 @@ const swiperOptions = {
         },
     }
 }
-export default function ServiceSlider1() {
+export default function ServiceSlider1(props) {
     return (
         <>
 
@@ -62,7 +62,7 @@ export default function ServiceSlider1() {
                     <div className="service-block-seven">
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-19.png" alt="" /></div>
-                            <h4>Quick Response</h4>
+                            <h4>{props.headone}</h4>
                             <div className="text">Lorem Ipsum is simply dummy text of the printing. </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export default function ServiceSlider1() {
                     <div className="service-block-seven">
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-20.png" alt="" /></div>
-                            <h4>Experience Team</h4>
+                            <h4>{props.headtwo}</h4>
                             <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ export default function ServiceSlider1() {
                     <div className="service-block-seven">
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-21.png" alt="" /></div>
-                            <h4>Flexible Payment</h4>
+                            <h4>{props.headthree}</h4>
                             <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>

@@ -52,7 +52,7 @@ export default function Home() {
                   </div>
                   <h2>Explore Our Private Labeling Services</h2>
                   {/*Theme Carousel*/}
-                  <ServiceSlider1/>
+                  <ServiceSlider1 headone='Quick Response' headtwo='Experience Team' headthree='Flexible Payment'/>
                 </div>
                 <aside className="col-lg-4">
                   <div className="service-sidebar">
