@@ -447,3 +447,5 @@ ul.aboutlist li::marker {
       .sec-title h2{padding-bottom: 15px;}
       .services-details .content-side h2{margin-bottom: 0px; padding-bottom: 15px;}
       .services-details .content-side .list li{display: flex;}
+      .service-block-seven h4{padding-bottom: 15px;}
+      .service-block-seven .inner-box{padding: 5px;}

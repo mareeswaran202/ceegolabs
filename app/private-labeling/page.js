@@ -52,7 +52,7 @@ export default function Home() {
                   </div>
                   <h2>Explore Our Private Labeling Services</h2>
                   {/*Theme Carousel*/}
-                  <ServiceSlider1 headone='Quick Response' headtwo='Experience Team' headthree='Flexible Payment'/>
+                  <ServiceSlider1 headone='Statutory Compliances' headtwo='Experience Team' headthree='Accrediations'/>
                 </div>
                 <aside className="col-lg-4">
                   <div className="service-sidebar">
@@ -89,15 +89,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div
-                      className="widget widget_contact"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/background/bg-25.jpg)",
-                      }}
-                    >
-                      
-                    </div>
+                    
                   </div>
                 </aside>
               </div>

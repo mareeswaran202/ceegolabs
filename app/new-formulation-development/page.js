@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import AuditSlider1 from "@/components/slider/AuditSlider1";
-import ServiceSlider1 from "@/components/slider/ServiceSlider1";
+import Choose from "@/components/elements/Choose";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -23,33 +23,12 @@ export default function Home() {
                       <div className="text">
                         <p>
                           
-Our Research and Development team is the key to the science behind our products. Our formulation development department is motivated to achieve improved bioavailability, efficacy, and efficiency. Utilizing the latest and newest formulas and radical innovation.
+                        Our Research and Development team is the key to the science behind our products. Our formulation development department is motivated to achieve improved bioavailability, efficacy, and efficiency. Utilizing the latest and newest formulas and radical innovation.
                         </p>
-                      </div>
-
-                      <ul className="list">
-                        <li>
-                          <i className="fa fa-check" />
-                          Customer Satisfaction
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          Uncompromised Quality
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          Latest Technology
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          CompetitivePrice
-                        </li>
-                      </ul>
+                      </div>                      
                     </div>
-                  </div>
-                  <h2>Explore Our Research & Development Services</h2>
-                  {/*Theme Carousel*/}
-                  <ServiceSlider1 />
+                  </div>                 
+                  
                 </div>
                 <aside className="col-lg-4">
                   <div className="service-sidebar">
@@ -86,6 +65,11 @@ Our Research and Development team is the key to the science behind our products.
                     </div>
                   </div>
                 </aside>
+              </div>
+              <div className="row">
+               <div className="col">
+                <Choose/>
+               </div>
               </div>
             </div>
           </section>

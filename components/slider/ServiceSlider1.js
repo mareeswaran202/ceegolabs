@@ -63,7 +63,7 @@ export default function ServiceSlider1(props) {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-19.png" alt="" /></div>
                             <h4>{props.headone}</h4>
-                            <div className="text">Lorem Ipsum is simply dummy text of the printing. </div>
+                            <div className="text d-none">Lorem Ipsum is simply dummy text of the printing. </div>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -72,7 +72,7 @@ export default function ServiceSlider1(props) {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-20.png" alt="" /></div>
                             <h4>{props.headtwo}</h4>
-                            <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
+                            <div className="text d-none">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -81,7 +81,7 @@ export default function ServiceSlider1(props) {
                         <div className="inner-box">
                             <div className="icon" style={{ lineHeight: "0" }}><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                             <h4>{props.headthree}</h4>
-                            <div className="text">Lorem Ipsum is simply dummy text of the printing.</div>
+                            <div className="text d-none">Lorem Ipsum is simply dummy text of the printing.</div>
                         </div>
                     </div>
                 </SwiperSlide>
