@@ -15,11 +15,11 @@ export default function Choose() {
                                         <li>
                                             <div className="inner">
                                                 <div className="icon">
-                                                    <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1.png)' }}>
+                                                <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1.png)' }}>
                                                     </div>
-                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1-overlay.png)' }}>
+                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1-overlay.png)' }}>
                                                     </div>
-                                                    <span className="icon-login clr8" />
+                                                    <span className="icon-user clr8" />
                                                 </div>
                                                 <div className="text">
                                                     <h3>Customer Needs</h3>
@@ -30,11 +30,11 @@ export default function Choose() {
                                         <li>
                                             <div className="inner">
                                                 <div className="icon">
-                                                    <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1.png)' }}>
+                                                <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1.png)' }}>
                                                     </div>
-                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1-overlay.png)' }}>
+                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1-overlay.png)' }}>
                                                     </div>
-                                                    <span className="icon-unknown clr8" />
+                                                    <span className="icon-product clr8" />
                                                 </div>
                                                 <div className="text">
                                                     <h3>New Product Development</h3>
@@ -56,11 +56,11 @@ export default function Choose() {
                                         <li>
                                             <div className="inner">
                                                 <div className="icon">
-                                                    <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1.png)' }}>
+                                                    <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1.png)' }}>
                                                     </div>
-                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1-overlay.png)' }}>
+                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1-overlay.png)' }}>
                                                     </div>
-                                                    <span className="icon-login clr8" />
+                                                    <span className="icon-moving-home-transport-for-boxes clr8" />
                                                 </div>
                                                 <div className="text">
                                                     <h3>Delivery System</h3>
@@ -72,11 +72,11 @@ Provide Multiple and Innovative Nutraceutical Delivery</p>
                                         <li>
                                             <div className="inner">
                                                 <div className="icon">
-                                                    <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1.png)' }}>
+                                                <div className="icon-bg1" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1.png)' }}>
                                                     </div>
-                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images-3/icon/icon-bg-1-overlay.png)' }}>
+                                                    <div className="icon-bg1-overlay" style={{ backgroundImage: 'url(assets/images/icons/icon-bg-1-overlay.png)' }}>
                                                     </div>
-                                                    <span className="icon-unknown clr8" />
+                                                    <span className="icon-meeting clr8" />
                                                 </div>
                                                 <div className="text">
                                                     <h3>Experienced R & D Team</h3>

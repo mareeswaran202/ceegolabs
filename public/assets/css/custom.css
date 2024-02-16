@@ -449,3 +449,6 @@ ul.aboutlist li::marker {
       .services-details .content-side .list li{display: flex;}
       .service-block-seven h4{padding-bottom: 15px;}
       .service-block-seven .inner-box{padding: 5px;}
+      .icon span{color:#f84411}
+      .choose-content-eight .inner-content ul li:before{background-color: #f84411;}
+      .choose-content-eight .inner-content ul li .inner .text h3{color: #0c2957;}
