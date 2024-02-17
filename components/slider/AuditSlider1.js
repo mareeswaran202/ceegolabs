@@ -29,11 +29,11 @@ export default function AuditSlider1() {
     return (
         <>
 
-            <Swiper {...swiperOptions} className="theme_carousel owl-theme">
+            <Swiper {...swiperOptions} className="theme_carousel owl-theme d-none d-md-block">
                 <SwiperSlide className="slide">
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-5.jpg" alt="" />
-                        <div className="content">
+                        <div className="content d-none">
                             <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function AuditSlider1() {
                 <SwiperSlide className="slide">
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-2.jpg" alt="" />
-                        <div className="content">
+                        <div className="content d-none">
                         <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default function AuditSlider1() {
                 <SwiperSlide className="slide">
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-3.jpg" alt="" />
-                        <div className="content">
+                        <div className="content d-none">
                         <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
                         </div>
                     </div>
