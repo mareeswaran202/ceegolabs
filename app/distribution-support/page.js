@@ -1,6 +1,4 @@
 import Layout from "@/components/layout/Layout";
-import AuditSlider1 from "@/components/slider/AuditSlider1";
-import ServiceSlider1 from "@/components/slider/ServiceSlider1";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -16,8 +14,7 @@ export default function Home() {
             <div className="auto-container">
               <div className="row">
                 <div className="col-lg-8 content-side">
-                  {/*Theme Carousel*/}
-                  <AuditSlider1 />
+                  
                   <div className="row mb-5">
                     <div className="col-md-12">
                       <div className="text">
@@ -32,69 +29,98 @@ export default function Home() {
                         </p>
                       </div>
 
-                      <ul className="list">
-                        <li>
-                          <i className="fa fa-check" />
-                          Customer Satisfaction
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          Uncompromised Quality
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          Latest Technology
-                        </li>
-                        <li>
-                          <i className="fa fa-check" />
-                          CompetitivePrice
-                        </li>
-                      </ul>
+                     
                     </div>
                   </div>
-                  <h2>Explore Our Distribution Support Services</h2>
-                  {/*Theme Carousel*/}
-                  <ServiceSlider1 />
+                 
                 </div>
-                <aside className="col-lg-4">
-                  <div className="service-sidebar">
-                    <div className="widget widget_categories_two">
-                      <div className="widget-content">
-                        <ul className="categories-list clearfix">
-                          <li>
-                            <Link href="/contract-manufacturing">
-                              Contract Manufacturing <span />
-                            </Link>
-                          </li>
-                          {/* <li>
-                            <Link href="/quality-complaince">
-                              Quality Compliance <span />
-                            </Link>
-                          </li> */}
-                          <li>
-                            <Link href="/private-labeling">
-                              Private Labeling <span />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/custom-packaging">
-                              Custom Packaging <span />
-                            </Link>
-                          </li>
-
-                          <li>
-                            <Link href="/new-formulation-development">
-                              New Formulation Development <span />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </aside>
+                
               </div>
             </div>
           </section>
+          <section className="testimonial-section-six">
+                    <div className="auto-container">
+                        <div className="sec-title style-four text-center">
+                            <h2>Our Exporting Countries</h2>
+                            <span className="text-decoration-three" />
+                        </div>
+                        <div className="wrapper-box">
+                            <div className="pointer-block d-none">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/client-22.png" alt="" /></div>
+                                    <div className="text">“I love Envolve; everyone has been great to work with and you’re all great partner for company, we thank you.”</div>
+                                    <h4>Boris Elbert, <span>Managing Director</span></h4>
+                                </div>
+                                <div className="point"><span /></div>
+                            </div>
+                            <div className="pointer-block">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/canada.png" alt="" /></div>
+                                    <div className="text">Canada</div>
+                                    {/* <h4>Boris Elbert, <span>Managing Director</span></h4> */}
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block d-none">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/client-22.png" alt="" /></div>
+                                    <div className="text">“I love Envolve; everyone has been great to work with and you’re all great partner for company, we thank you.”</div>
+                                    <h4>Boris Elbert, <span>Managing Director</span></h4>
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block d-none">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/client-22.png" alt="" /></div>
+                                    <div className="text">“I love Envolve; everyone has been great to work with and you’re all great partner for company, we thank you.”</div>
+                                    <h4>Boris Elbert, <span>Managing Director</span></h4>
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block d-none">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/client-22.png" alt="" /></div>
+                                    <div className="text">“I love Envolve; everyone has been great to work with and you’re all great partner for company, we thank you.”</div>
+                                    <h4>Boris Elbert, <span>Managing Director</span></h4>
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/qatar.png" alt="" /></div>
+                                    <div className="text">Qatar</div>
+                                     
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/india.png" alt="" /></div>
+                                    <div className="text">India</div>
+                                     
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/singapore.png" alt="" /></div>
+                                    <div className="text">Singapore</div>
+                                    {/* <h4>Boris Elbert, <span>Managing Director</span></h4> */}
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <div className="pointer-block d-none">
+                                <div className="content">
+                                    <div className="logo"><img src="/assets/images/resource/client-22.png" alt="" /></div>
+                                    <div className="text">“I love Envolve; everyone has been great to work with and you’re all great partner for company, we thank you.”</div>
+                                    <h4>Boris Elbert, <span>Managing Director</span></h4>
+                                </div>
+                                <div className="point" />
+                            </div>
+                            <img src="/assets/images/resource/world-map-2.jpg" alt="" />
+                        </div>
+                    </div>
+                </section>
         </div>
       </Layout>
     </>
