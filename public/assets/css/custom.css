@@ -470,3 +470,26 @@ ul.aboutlist li::marker {
           .testimonial-section-six .pointer-block .content{padding:20px 50px;}
           .testimonial-section-six .pointer-block .content .logo{display: flex;}
           .testimonial-section-six .pointer-block .content .logo img{width: 60px; height: 60px;}
+
+          .subscribe-newsletter-three .lower-content ul{position: relative;
+            margin-bottom: 40px;
+            text-align: left;}
+
+          
+
+            .subscribe-newsletter-three .lower-content ul li{
+              position: relative;
+              color: rgb(12, 41, 87);
+              font-size: 18px;
+              line-height: 38px;
+              padding-left: 37px;
+              
+              font-weight: 500;
+            }
+            .subscribe-newsletter-three .lower-content ul li i{margin-right: 10px;
+              position: relative;
+              top: 2px; color:#f84411}
+
+              .subscribe-newsletter-three .content-box .lower-content{height: 210px;}
+              .subscribe-newsletter-three .content-box h4{font-size: 25px;
+                font-weight: 600; margin-bottom: 10px;}

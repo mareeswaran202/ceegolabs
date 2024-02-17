@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -8,42 +8,72 @@ export default function Home() {
         footerStyle={2}
         breadcrumbTitle="Distribution Support"
         wrapperCls="home_2"
+        
       >
-        <div>
-          <section className="services-details">
-            <div className="auto-container">
-              <div className="row">
-                <div className="col-lg-8 content-side">
-                  
-                  <div className="row mb-5">
-                    <div className="col-md-12">
-                      <div className="text">
-                        <p>
-                          As one of our service private label manufacturer, we
-                          have a strict focus on quality in our manufacturing
-                          operation. We only use state-of- the-art production
-                          technologies – and many of our progressive formulas
-                          are proven successful in many markets.All our products
-                          comply with, and exceed, the strictest regulatory
-                          standards
-                        </p>
-                      </div>
-
-                     
-                    </div>
-                  </div>
-                 
-                </div>
-                
-              </div>
+         <section className="subscribe-newsletter-three pt-5" style={{ backgroundImage: 'url(assets/images/background/bg-14.jpg)' }}>
+                <div className="auto-container">
+                     <div className="row">
+                        <div className="col">
+                        <div className="sec-title text-center">
+            <h2>Distribution Support</h2>
+            <div className="text-decoration">
+              <span className="left" />
+              <span className="right" />
             </div>
-          </section>
-          <section className="testimonial-section-six">
-                    <div className="auto-container">
-                        <div className="sec-title style-four text-center">
-                            <h2>Our Exporting Countries</h2>
-                            <span className="text-decoration-three" />
+          </div>
                         </div>
+                     </div>
+                    <div className="row">
+                   
+                      <div className="col-lg-2"></div>
+                        <div className="col-lg-4">
+                            <div className="content-box" style={{boxShadow:'0px 0px 50px 0px rgba(0, 0, 0, 0.2)'}}>
+                                <div className="image"><img src="/assets/images/resource/b2b.jpg" alt="" style={{height:'260px', objectFit:'contain'}} /></div>
+                                <div className="lower-content">
+                                    <h4 className="text-center" style={{fontSize:'25px',fontWeight:'600'}}>Business To Business</h4>
+                                    <ul>
+                                      <li><i className="flaticon-tick"></i>Own Distribution Support</li>
+                                      <li><i className="flaticon-tick"></i>Third Party Distribution</li>
+                                    </ul>
+                                     
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="content-box" style={{boxShadow:'0px 0px 50px 0px rgba(0, 0, 0, 0.2)'}}>
+                                <div className="image"><img src="/assets/images/resource/b2c.jpg" style={{height:'260px', objectFit:'contain'}} alt="" /></div>
+                                <div className="lower-content">
+                                    <h4 className="text-center" style={{fontSize:'25px',fontWeight:'600'}}>Business To Customers</h4>
+                                    <ul>
+                                      <li><i className="flaticon-tick"></i>Market place E-commerce</li>
+                                      <li><i className="flaticon-tick"></i>Online E-commerce</li>
+                                      <li><i className="flaticon-tick"></i>Health Kisoks</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-2"></div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+       
+        
+          <section className="testimonial-section-six pt-0">
+          <div className="row">
+                        <div className="col">
+                        <div className="sec-title text-center">
+            <h2>Our Exporting Countries</h2>
+            <div className="text-decoration">
+              <span className="left" />
+              <span className="right" />
+            </div>
+          </div>
+                        </div>
+                     </div>
+                    <div className="auto-container">
+                       
                         <div className="wrapper-box">
                             <div className="pointer-block d-none">
                                 <div className="content">
@@ -121,7 +151,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-        </div>
+         
       </Layout>
     </>
   );
