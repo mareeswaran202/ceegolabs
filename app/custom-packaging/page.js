@@ -95,13 +95,10 @@ export default function Home() {
                               <i className="flaticon-tick" />
                               Strip Packing
                             </li>
+                            
                             <li>
                               <i className="flaticon-tick" />
-                              HDPE Jars
-                            </li>
-                            <li>
-                              <i className="flaticon-tick" />
-                              HDPE Bottles
+                              HDPE Bottles Or HDPE Jars
                             </li>
                             <li>
                               <i className="flaticon-tick" />
@@ -110,6 +107,22 @@ export default function Home() {
                             <li>
                               <i className="flaticon-tick" />
                               Glass Bottles
+                            </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              Caps with Wad
+                            </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              Self-sealing screw caps
+                            </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              Bridge sealing flip off
+                            </li>
+                            <li>
+                              <i className="flaticon-tick" />
+                              CRC (child resistant cap)
                             </li>
                           </ul>
                         </div>

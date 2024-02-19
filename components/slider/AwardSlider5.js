@@ -6,6 +6,7 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 4,
     spaceBetween: 20,
+    autoplay:true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
@@ -58,7 +59,7 @@ export default function AwardSlider5() {
 
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
                 <SwiperSlide className="award-block-two">
-                    <div className="image"><img src="/assets/images/resource/award-8.png" alt="" /></div>
+                    <div className="image"><img src="/assets/images/resource/iso2018.png" alt="" /></div>
                     <h4> Food Safety <br /> Management System</h4>
                 </SwiperSlide>
                 <SwiperSlide className="award-block-two">

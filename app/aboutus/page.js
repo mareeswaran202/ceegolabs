@@ -2,7 +2,9 @@ import Layout from "@/components/layout/Layout";
 import Award from "@/components/slider/Award";
 import AboutBanner from "@/components/sections/home2/Aboutbanner";
 import "@/public/assets/css/custom.css";
+
 export default function Home() {
+  
   return (
     <>
       <Layout
@@ -11,6 +13,7 @@ export default function Home() {
        
         wrapperCls="home_2"
       >
+        
         <div>
           <section className="about-section-six pt-0">
           <AboutBanner headertxtone='Our Vision' subheadertxtone='Innovation - Forward thinking, confidence-conviction, Respect-Embracing difference,Solidarity-Social responsibility, Integrity-Acting ethically'/>
@@ -52,7 +55,7 @@ export default function Home() {
                       <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the domestic and global markets. 
                       </li> */}
                       <li>
-                        Our manufacturing unit is located in an eco-friendly area 45km from Chennai, India, with a built-up area of 48,000 sq. ft. on 3 acres of land. It is designed as per the latest GMP, GLP, and ISO 22000:2005. specifications  
+                        Our manufacturing unit is located in an eco-friendly area 45km from Chennai, India, with a built-up area of 48,000 sq. ft. on 3 acres of land. It is designed as per the latest GMP, GLP, and ISO 22000:2018. specifications  
                       </li>
                       <li>We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span></li>
                      
@@ -207,7 +210,7 @@ export default function Home() {
                         <div className="inner-box">
                           <div className="image award-image-con">
                             <img
-                              src="/assets/images/resource/award-8.png"
+                              src="/assets/images/resource/iso2018.png"
                               alt=""
                             />
                           </div>
