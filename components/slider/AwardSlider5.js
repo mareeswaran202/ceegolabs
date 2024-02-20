@@ -82,8 +82,7 @@ export default function AwardSlider5() {
                 <button type="button" className="owl-next h2n">
                     <span>›</span>
                 </button>
-            </div>
-          <Modal />
+            </div>          
         </>
     )
 }
