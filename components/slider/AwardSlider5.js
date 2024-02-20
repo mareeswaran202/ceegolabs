@@ -1,9 +1,6 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-  
-
-
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 4,
