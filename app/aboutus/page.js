@@ -3,6 +3,7 @@ import Award from "@/components/slider/Award";
 import AboutBanner from "@/components/sections/home2/Aboutbanner";
 import "@/public/assets/css/custom.css";
 
+
 export default function Home() {
   
   return (
@@ -337,6 +338,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+         
         </div>
       </Layout>
     </>

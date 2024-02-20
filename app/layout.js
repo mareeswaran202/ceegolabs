@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { Barlow, Fira_Sans } from "next/font/google";
-import { Metadata } from "next";
+
 
 const firaSans = Fira_Sans({
   weight: ["400", "500", "600", "700", "800", "900"],

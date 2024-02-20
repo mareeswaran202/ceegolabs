@@ -1,6 +1,8 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+  
+
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -54,6 +56,8 @@ const swiperOptions = {
 }
 
 export default function AwardSlider5() {
+    
+  
     return (
         <>
 
@@ -61,6 +65,7 @@ export default function AwardSlider5() {
                 <SwiperSlide className="award-block-two">
                     <div className="image"><img src="/assets/images/resource/iso2018.png" alt="" /></div>
                     <h4> Food Safety <br /> Management System</h4>
+                    
                 </SwiperSlide>
                 <SwiperSlide className="award-block-two">
                     <div className="image"><img src="/assets/images/resource/award-9.png" alt="" /></div>
@@ -81,6 +86,7 @@ export default function AwardSlider5() {
                     <span>›</span>
                 </button>
             </div>
+          <Modal />
         </>
     )
 }
