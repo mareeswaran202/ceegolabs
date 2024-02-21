@@ -1,6 +1,9 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import Modal from "../elements/Modal"
+import ModalGMP from "../elements/Modalgmp"
+import { useState } from "react"
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 4,
@@ -54,19 +57,26 @@ const swiperOptions = {
 
 export default function AwardSlider5() {
     
-  
+   const[Openmodal, SetopenModal] = useState(false)
+   const[Opengmpmodal, SetopengmpModal] = useState(false)
+   function Showmodalpopup(){
+    SetopenModal(true)    
+   }
+   function ShowmodalpopupGMP(){
+       SetopengmpModal(true)
+   }
     return (
         <>
 
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
-                <SwiperSlide className="award-block-two">
+                <SwiperSlide className="award-block-two" onClick={Showmodalpopup}>
                     <div className="image"><img src="/assets/images/resource/iso2018.png" alt="" /></div>
                     <h4> Food Safety <br /> Management System</h4>
                     
                 </SwiperSlide>
-                <SwiperSlide className="award-block-two">
+                <SwiperSlide className="award-block-two" onClick={ShowmodalpopupGMP}>
                     <div className="image"><img src="/assets/images/resource/award-9.png" alt="" /></div>
-                    <h4>Good Manufacturing <br /> Practice</h4>
+                    <h4 >Good Manufacturing <br /> Practice</h4>
                 </SwiperSlide>
                 <SwiperSlide className="award-block-two">
                     <div className="image image2"><img src="/assets/images/resource/award-10.png" alt="" /></div>
@@ -82,7 +92,9 @@ export default function AwardSlider5() {
                 <button type="button" className="owl-next h2n">
                     <span>›</span>
                 </button>
-            </div>          
+            </div>   
+{Openmodal && <Modal passmodalstat={SetopenModal}/>}
+{Opengmpmodal && <ModalGMP passgmpmodalstat={SetopengmpModal}/>}
         </>
     )
 }
