@@ -595,3 +595,7 @@ ul.aboutlist li::marker {
               .closepopup{position:absolute ; top: 25px; right: 25px; font-size: 25px; color: #fff; cursor: pointer;}
               .closepopup:hover{opacity: .7;}
               .award-block-two{cursor: pointer;}
+              @media only screen and (max-width: 1139px)
+        {
+          .nav-outer .mobile-nav-toggler{display: block !important;}
+        }
