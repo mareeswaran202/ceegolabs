@@ -1,5 +1,7 @@
 import Layout from "@/components/layout/Layout";
-
+export const metadata = {
+    title:'Distribution Support'
+  }
 export default function Home() {
   return (
     <>

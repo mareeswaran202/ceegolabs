@@ -7,10 +7,11 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    autoplay:false,
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
     loop: true,
 
     // Navigation
@@ -29,7 +30,7 @@ export default function AuditSlider1() {
     return (
         <>
 
-            <Swiper {...swiperOptions} className="theme_carousel owl-theme d-none d-md-block">
+            <Swiper {...swiperOptions} className="theme_carousel owl-theme">
                 <SwiperSlide className="slide">
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-5.jpg" alt="" />

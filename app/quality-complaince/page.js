@@ -4,7 +4,9 @@ import Layout from "@/components/layout/Layout"
 import AuditSlider1 from "@/components/slider/AuditSlider1"
 import ServiceSlider1 from "@/components/slider/ServiceSlider1"
 import Link from "next/link"
-
+export const metadata = {
+    title:'Quality Complaince'
+  }
 export default function Home() {
 
     return (

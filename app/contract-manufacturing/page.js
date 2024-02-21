@@ -3,6 +3,9 @@
 import Layout from "@/components/layout/Layout"
 import AuditSlider1 from "@/components/slider/AuditSlider1" 
 import Link from "next/link"
+export const metadata = {
+    title:'Contract Manufacturing'
+  }
 export default function Home() {
 
     return (

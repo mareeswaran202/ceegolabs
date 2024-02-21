@@ -3,7 +3,9 @@ import Layout from "@/components/layout/Layout";
 import InfraBanner from "@/components/slider/Infraslider";
 import Newsletter from "@/components/elements/Newsletter";
  
-
+export const metadata = {
+  title:'Our Infrastructure'
+}
 
 function Infrastructure() {
   return (

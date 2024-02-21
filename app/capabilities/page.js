@@ -1,6 +1,8 @@
 import Layout from "@/components/layout/Layout";
 import Pricing from "@/components/elements/Pricing";
-
+export const metadata = {
+  title:'Our Capabilities'
+}
 export default function Home() {
   return (
     <>

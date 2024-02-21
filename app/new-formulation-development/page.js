@@ -2,6 +2,9 @@ import Layout from "@/components/layout/Layout";
 import AuditSlider1 from "@/components/slider/AuditSlider1";
 import Choose from "@/components/elements/Choose";
 import Link from "next/link";
+export const metadata = {
+  title:'New Formulation Development'
+}
 export default function Home() {
   return (
     <>

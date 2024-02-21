@@ -3,6 +3,9 @@ import Award from "@/components/slider/Award";
 import AboutBanner from "@/components/sections/home2/Aboutbanner";
 import "@/public/assets/css/custom.css";
 
+export const metadata = {
+  title:'About Ceegolabs'
+}
 
 export default function Home() {
   

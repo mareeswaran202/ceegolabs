@@ -599,3 +599,12 @@ ul.aboutlist li::marker {
         {
           .nav-outer .mobile-nav-toggler{display: block !important;}
         }
+
+        @media only screen and (max-width:991px){
+          .main-footer.style-two .links-widget{padding-left: 0px !important;}
+        }
+
+        @media only screen and (max-width:768px){
+          .services-details .content-side .image-slide img{height: 500px;}
+          .services-details .content-side .image-slide .content{right: 10px;}
+        }
