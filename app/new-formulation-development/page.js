@@ -33,7 +33,7 @@ export default function Home() {
                   </div>                 
                   
                 </div>
-                <aside className="col-lg-4">
+                <aside className="col-lg-4 d-none d-md-block">
                   <div className="service-sidebar">
                     <div className="widget widget_categories_two">
                       <div className="widget-content">

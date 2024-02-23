@@ -57,7 +57,7 @@ export default function Home() {
                   {/*Theme Carousel*/}
                   <ServiceSlider1 headone='Statutory Compliances' headtwo='Experience Team' headthree='Accrediations'/>
                 </div>
-                <aside className="col-lg-4">
+                <aside className="col-lg-4 d-none d-md-block">
                   <div className="service-sidebar">
                     <div className="widget widget_categories_two">
                       <div className="widget-content">

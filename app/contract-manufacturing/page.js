@@ -24,7 +24,7 @@ export default function Home() {
                                           <div className="text"><span className="ceegotxtpara">Ceego Labs</span> specializes in manufacturing and developing Nutraceuticals and pharmaceuticals products offering comprehensive quality, assurance testing, Business Development solutions  based on our customers’ needs with the best quality at competitive prices. <span className="ceegotxtpara">Ceego Labs</span> can work with you to turn your ideas and concepts into a retail-ready product.</div>
                                             
                                             
-                                            <ul className="list">
+                                            <ul className="list d-none">
                                               <li><i className="fa fa-check" />We have expertise in new formulations in terms of delivery systems and label claims with unique selling points, or we can manufacture label claims tailor-made for your requirements.</li>
                                                 {/* <li><i className="fa fa-check" /><span className="ceegotxtpara">Ceego Labs</span> Pvt Ltd is a - WHO,GMP,ISO 22000:2005,DUNS certified Contract manufacturers & Exporter of Nutraceuticals , Food Supplements , Dietary Supplements</li>
                                                 <li><i className="fa fa-check" /><span className="ceegotxtpara">Ceego Labs</span> is on the Chennai-Bangalore Highway.
@@ -39,7 +39,7 @@ We have expertise in new formulations in terms of delivery systems and label cla
                                     
                                     
                                 </div>
-                                <aside className="col-lg-4">
+                                <aside className="col-lg-4 d-none d-md-block">
                                     <div className="service-sidebar">
                                         <div className="widget widget_categories_two">
                                             <div className="widget-content">

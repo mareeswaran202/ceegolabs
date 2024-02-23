@@ -607,4 +607,7 @@ ul.aboutlist li::marker {
         @media only screen and (max-width:768px){
           .services-details .content-side .image-slide img{height: 500px;}
           .services-details .content-side .image-slide .content{right: 10px;}
+          .choose-section-eight{padding-top: 0px;}
         }
+        .services-details .content-side .image-slide .content h4{font-size: 22px;}
+        .services-details .content-side .image-slide .content{right:0px; border-top-right-radius: 0px;}

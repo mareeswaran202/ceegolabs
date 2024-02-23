@@ -17,11 +17,12 @@ export default function Footer2() {
                                         <div className="row">
                                             <div className="col-sm-12">
                                                 <ul>
-                                                    <li><Link href="">About</Link></li>
-                                                    <li><Link href="">Meet Our Team</Link></li>                                                   
-                                                    <li><Link href="">Careers</Link></li>
-                                                    <li><Link href="">Blog</Link></li>
-                                                    <li><Link href="/contact-2">Contact Us</Link></li>
+                                                    <li><Link href="/aboutus">About</Link></li>
+                                                     <li><Link href="/capabilities">Capabilities</Link></li> 
+                                                     <li><Link href="/infrastructure">Infrastructure</Link></li>                                  
+                                                    <li><Link href="career">Careers</Link></li>
+                                                    {/* <li><Link href="">Blog</Link></li> */}
+                                                    <li><Link href="/contactus">Contact Us</Link></li>
                                                    
                                                    
                                                 </ul>
@@ -39,12 +40,12 @@ export default function Footer2() {
                                     <div className="row">
                                             <div className="col-sm-12">
                                                 <ul>
-                                                    <li><Link href="">Contract Manufacturing</Link></li>
-                                                    <li><Link href="">Quality Complaince</Link></li>
-                                                    <li><Link href="">Private Labeling</Link></li>
-                                                    <li><Link href="">Custom Packaging</Link></li>
-                                                    <li><Link href="">Distribution Support</Link></li>
-                                                    <li><Link href="">New Formulation Development</Link></li>                                                  
+                                                    <li><Link href="/contract-manufacturing">Contract Manufacturing</Link></li>
+                                                    {/* <li><Link href="">Quality Complaince</Link></li> */}
+                                                    <li><Link href="/private-labeling">Private Labeling</Link></li>
+                                                    <li><Link href="/custom-packaging">Custom Packaging</Link></li>
+                                                    <li><Link href="/distribution-support">Distribution Support</Link></li>
+                                                    <li><Link href="/new-formulation-development">New Formulation Development</Link></li>                                                  
                                                    
                                                 </ul>
                                             </div>

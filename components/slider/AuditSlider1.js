@@ -7,11 +7,11 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
-    autoplay:false,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     loop: true,
 
     // Navigation
@@ -35,7 +35,7 @@ export default function AuditSlider1() {
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-5.jpg" alt="" />
                         <div className="content">
-                            <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
+                            <h4>We have expertise in new formulations in terms of delivery systems and label claims with unique selling points.</h4>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -43,7 +43,7 @@ export default function AuditSlider1() {
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-2.jpg" alt="" />
                         <div className="content">
-                        <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
+                        <h4>Our Research and Development team is the key to the science behind our products.</h4>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -51,7 +51,7 @@ export default function AuditSlider1() {
                     <div className="image-slide">
                         <img src="/assets/images/resource/single-service-3.jpg" alt="" />
                         <div className="content">
-                        <h4>Lorem Ipsum is simply dummy text of the printing <br /> Lorem Ipsum has been.</h4>
+                        <h4>Ceego Labs is equipped to efficiently handle medium <br/> and large production runs. </h4>
                         </div>
                     </div>
                 </SwiperSlide>
