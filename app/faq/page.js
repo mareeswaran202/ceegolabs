@@ -2,9 +2,7 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
-export const metadata = {
-    title:'Frequently Asked Questions'
-  }
+
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
