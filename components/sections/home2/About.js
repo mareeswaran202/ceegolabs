@@ -15,8 +15,8 @@ export default function About() {
                     <div className="row"> 
                         <div className="col-lg-6 ">
                             <div className="image-block">
-                                <div className="image-one"><img className="lazy-image owl-lazy" src="/assets/images/resource/home-one.jpg" alt="" /></div>
-                                <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/lab-person.jpg" alt="" /></div>
+                                <div className="image-one"><img className="lazy-image owl-lazy" src="/assets/images/resource/home-tablets.png" alt="" /></div>
+                                <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/beet.png" alt="" /></div>
                                 <div className="image-three">
                                     <img className="lazy-image owl-lazy" src="/assets/images/resource/lab-dark.jpg" alt="" />
                                     

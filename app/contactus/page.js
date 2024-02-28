@@ -37,7 +37,7 @@ export default function Home() {
                                     <span className="right" />
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row justify-content-center">
                                 <div className="col-lg-4 contact-info-block-two">
                                     <div className="inner-box">
                                         <div className="icon"><img src="/assets/images/icons/icon-50.png" alt="" /></div>
@@ -60,16 +60,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 contact-info-block-two">
-                                    <div className="inner-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-51.png" alt="" /></div>
-                                        <h4>Call us on</h4>
-                                        <ul>
-                                        <li><Link href="tel:044-27259100">044-27259100</Link></li>
-                                        <li><Link href="tel:044-27259101">044-27259101</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                               
                             </div>
                             
                         </div>
@@ -89,17 +80,16 @@ export default function Home() {
                                                 </div>
                                                 <div className="text">Just send us your questions or concerns to <br /> starting a new project.</div>
                                             </div>
-                                            <div className="author-box">
-                                                <div className="image"><img src="/assets/images/resource/author-thumb-12.jpg" alt="" /></div>
-                                                <h4>Have a Question?</h4>
-                                                <div className="phone-numer">044-27259100 &amp; 1</div>
-                                            </div>
+                                             
+                                                
+                                            <h4 className="contacthead">Working Hours</h4>                                               
+                                            
                                             <ul className="list">
                                                 <li>Monday - Friday:</li>
                                                 <li>9.00 - 6.00</li>
                                                 <li>Sunday &amp; Public Holidays (Closed)</li>
                                             </ul>
-                                            <Link href="#" className="read-more-link">Request a Call Back <i className="flaticon-right" /></Link>
+                                            
                                         </div>
                                     </div>
                                 </div>

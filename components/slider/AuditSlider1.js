@@ -49,7 +49,7 @@ export default function AuditSlider1() {
                 </SwiperSlide>
                 <SwiperSlide className="slide">
                     <div className="image-slide">
-                        <img src="/assets/images/resource/single-service-3.jpg" alt="" />
+                        <img src="/assets/images/resource/banner-g.jpeg" alt="" />
                         <div className="content">
                         <h4>Ceego Labs is equipped to efficiently handle medium <br/> and large production runs. </h4>
                         </div>

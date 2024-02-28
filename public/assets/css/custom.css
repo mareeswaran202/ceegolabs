@@ -611,3 +611,6 @@ ul.aboutlist li::marker {
         }
         .services-details .content-side .image-slide .content h4{font-size: 22px;}
         .services-details .content-side .image-slide .content{right:0px; border-top-right-radius: 0px;}
+        .contacthead{color: #f84411;
+          font-size: 22px;
+          margin-bottom: 5px;}
