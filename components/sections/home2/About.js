@@ -15,10 +15,10 @@ export default function About() {
                     <div className="row"> 
                         <div className="col-lg-6 ">
                             <div className="image-block">
-                                <div className="image-one"><img className="lazy-image owl-lazy" src="/assets/images/resource/home-tablets.png" alt="" /></div>
-                                <div className="image-two"><img className="lazy-image owl-lazy" src="/assets/images/resource/beet.png" alt="" /></div>
+                                <div className="image-one"><img className="lazy-image owl-lazy" style={{width:'300px',height:'490px',objectFit:'cover'}} src="/assets/images/resource/pill-box.jpg" alt="" /></div>
+                                <div className="image-two"><img className="lazy-image owl-lazy" style={{width:'290px',height:'423px',objectFit:'cover'}} src="/assets/images/resource/tablet-manufacturing.jpg" alt="" /></div>
                                 <div className="image-three">
-                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/lab-dark.jpg" alt="" />
+                                    <img className="lazy-image owl-lazy" style={{width:'300px',height:'290px',objectFit:'cover'}} src="/assets/images/resource/tablet-machine-overlay.png" alt="" />
                                     
                                 </div>
                             </div>
