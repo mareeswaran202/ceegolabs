@@ -33,7 +33,7 @@ export default function AuditSlider1() {
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
                 <SwiperSlide className="slide">
                     <div className="image-slide">
-                        <img src="/assets/images/resource/single-service-5.jpg" alt="" />
+                        <img src="/assets/images/resource/industry.jpg" alt="" />
                         <div className="content">
                             <h4>We have expertise in new formulations in terms of delivery systems and label claims with unique selling points.</h4>
                         </div>

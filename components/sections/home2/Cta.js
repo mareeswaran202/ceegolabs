@@ -12,12 +12,8 @@ export default function Cta() {
                         </div>
                         <div className="col-lg-5">
                             <div className="wrapper-box">
-                                <div className="contact-info">
-                                    <div className="icon"><span className="flaticon-call-1" /></div>
-                                    <h4>044-27259100 </h4>
-                                    <div className="text">support@ceegolabs.com</div>
-                                </div>
-                                <Link href="/contact-2" className="theme-btn btn-style-four"><span className="btn-title">Let’s Start</span></Link>
+                                
+                                <Link href="/contactus" className="theme-btn btn-style-four"><span className="btn-title">Let’s Start</span></Link>
                             </div>
                         </div>
                     </div>

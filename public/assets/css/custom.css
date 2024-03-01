@@ -405,6 +405,12 @@ ul.aboutlist li::marker {
   font-size: 20px;
   font-weight: 500;
 }
+.testimonial-section-six .pointer-block:nth-child(5){left: 59.5%;
+  top: auto;
+  bottom: 43%;}
+  .testimonial-section-six .pointer-block:nth-child(9){left: auto;
+    right: 30%;
+    top: 59%;}
 @media only screen and (max-width:768px){
   .pricing-section .pricing-btn ul li a{font-size: 16px;}
   .pricing-block .top-content{padding: 20px 30px 21px;}
@@ -463,9 +469,21 @@ ul.aboutlist li::marker {
             top: auto;
             bottom: 36%;}
             .testimonial-section-six .pointer-block:nth-child(6){left: auto;
-              right: 40.5%;
-              top: 38%;
+              right: 36.5%;
+              top: 44%;
           }
+          .testimonial-section-six .pointer-block:nth-child(4){left: 50.5%;
+            bottom: 31%;
+            top: 34%;}
+            .testimonial-section-six .pointer-block:nth-child(10){
+              left: auto;
+    right: 27%;
+    top: 47%;
+            }
+            .testimonial-section-six .pointer-block{left: 58%;
+              top: 26%;}
+              .testimonial-section-six .pointer-block:nth-child(3){left: 48%;
+                top: 58%;}
           .testimonial-section-six .pointer-block .content .logo{top:13px}
           .testimonial-section-six .pointer-block .content{padding:20px 50px;}
           .testimonial-section-six .pointer-block .content .logo{display: flex;}
@@ -474,7 +492,9 @@ ul.aboutlist li::marker {
           .subscribe-newsletter-three .lower-content ul{position: relative;
             margin-bottom: 40px;
             text-align: left;}
-
+          .flagcls{width: 32px;
+            height: 32px;
+            margin-right: 10px;}
           
 
             .subscribe-newsletter-three .lower-content ul li{
@@ -614,3 +634,5 @@ ul.aboutlist li::marker {
         .contacthead{color: #f84411;
           font-size: 22px;
           margin-bottom: 5px;}
+
+          .cta-section-two .wrapper-box{justify-content: flex-end;}

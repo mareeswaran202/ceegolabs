@@ -24,7 +24,7 @@ export default function Menu() {
                         <li><Link href="/capabilities">Capabilities</Link>
                             
                             </li> 
-                        <li><Link href="/infrastructure">Infrastructure</Link></li>
+                        
                         {/* <li><Link href="/research-and-development">Research & Development</Link></li> */}
                        
                     </ul>
@@ -41,6 +41,7 @@ export default function Menu() {
                         
                     </ul>
                 </li>
+                <li><Link href="/infrastructure">Infrastructure</Link></li>
                
                 <li className="d-none"><Link href="/export-products">Export Products</Link></li>
                 <li><Link href="/contactus">Contact Us</Link></li>

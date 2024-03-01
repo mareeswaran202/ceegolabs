@@ -88,7 +88,7 @@ export default function Home() {
                           <ul>
                             <li>
                               <i className="flaticon-tick" />
-                              Alu alu blistersh
+                              Alu alu Blisters
                             </li>
                             <li>
                               <i className="flaticon-tick" />

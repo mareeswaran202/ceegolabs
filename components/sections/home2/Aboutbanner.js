@@ -39,7 +39,7 @@ export default function AboutBanner(props) {
                 <Swiper {...swiperOptions} className="banner-carousel theme_carousel owl-theme">
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                       <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/4.jpg" /> 
+                       <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/tablets-banner.jpg" /> 
                         <div className="pattern2"/>
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
@@ -54,7 +54,7 @@ export default function AboutBanner(props) {
                     </SwiperSlide>
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/5.jpg" />
+                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/tablet-banner-2.jpg" />
                         <div className="pattern2" />
                         <div className="auto-container" style={{maxWidth:'1050px'}}>
                             <div className="content-box">
