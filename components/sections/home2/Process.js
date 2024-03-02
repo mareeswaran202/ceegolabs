@@ -17,7 +17,7 @@ export default function Process() {
                                     <h4>Contract</h4>
                                     <p>First step of process</p>
                                     <div className="icon"><i className="flaticon-permission" /><span className="step-count">01</span></div>
-                                    <div className="text">Lorem Ipsum is simply dummy <br />the printing and typesetting industry.</div>
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 process-block-two">
@@ -25,7 +25,7 @@ export default function Process() {
                                     <h4>Discussion</h4>
                                     <p>Our second easy step</p>
                                     <div className="icon"><i className="flaticon-discussion" /><span className="step-count">02</span></div>
-                                    <div className="text">Lorem Ipsum is simply dummy <br />the printing and typesetting industry.</div>
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 process-block-two">
@@ -33,7 +33,7 @@ export default function Process() {
                                     <h4>Implement</h4>
                                     <p>Important third step</p>
                                     <div className="icon"><i className="flaticon-rocket-ship" /><span className="step-count">03</span></div>
-                                    <div className="text">Lorem Ipsum is simply dummy <br />the printing and typesetting industry.</div>
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 process-block-two">
@@ -41,7 +41,7 @@ export default function Process() {
                                     <h4>Closure</h4>
                                     <p>Solution in final step</p>
                                     <div className="icon"><i className="flaticon-success" /><span className="step-count">04</span></div>
-                                    <div className="text">Lorem Ipsum is simply dummy <br />the printing and typesetting industry.</div>
+                                     
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             
                             <div className="top-right">
                                 <ul className="contact-info-two">
-                                    <li><i className="flaticon-bag" />Careers</li>
+                                    
                                     <li className="border-0"><a href="mailto:info@ceegolabs.com"><i className="flaticon-mail" />Email Us</a></li>
                                 </ul>
                                 

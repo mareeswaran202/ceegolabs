@@ -3,7 +3,7 @@ import AuditSlider1 from "@/components/slider/AuditSlider1";
 import ServiceSlider1 from "@/components/slider/ServiceSlider1";
 import Link from "next/link";
 export const metadata = {
-  title:'Private Labeling'
+  title:'Private Labelling '
 }
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Layout
         headerStyle={2}
         footerStyle={2}
-        breadcrumbTitle="Private Labeling"
+        breadcrumbTitle="Private Labelling"
         wrapperCls="home_2"
       >
         <div>
@@ -53,9 +53,9 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
-                  <h2>Explore Our Private Labeling Services</h2>
+                  <h2>Explore Our Private Labelling  Services</h2>
                   {/*Theme Carousel*/}
-                  <ServiceSlider1 headone='Statutory Compliances' headtwo='Experience Team' headthree='Accrediations'/>
+                  <ServiceSlider1 headone='Statutory Compliances' headtwo='Experienced Team' headthree='Accrediations'/>
                 </div>
                 <aside className="col-lg-4 d-none d-md-block">
                   <div className="service-sidebar">

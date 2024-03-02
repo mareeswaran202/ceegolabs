@@ -46,7 +46,7 @@ export default function InfraBanner() {
                                 <div>
                                   
                                     <h2>Infrastructure </h2>
-                                    <h3>Facility - Equipped modern unit complying with <br/> 'Schedule M' for Pharma-ISO 22000 : 2005 - WHO <br/> and GMP for Nutraceuticals</h3>
+                                    <h3>Facility - Equipped modern unit complying with <br/> 'Schedule M' for Pharma-ISO 22000 : 2005 - WHO - GMP <br/>for Nutraceuticals</h3>
                                     
                                 </div>
                             </div>

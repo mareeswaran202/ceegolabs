@@ -85,7 +85,7 @@ export default function Home() {
                                             <h4 className="contacthead">Working Hours</h4>                                               
                                             
                                             <ul className="list">
-                                                <li>Monday - Friday:</li>
+                                                <li>Monday - Saturday:</li>
                                                 <li>9.00 - 6.00</li>
                                                 <li>Sunday &amp; Public Holidays (Closed)</li>
                                             </ul>
@@ -134,80 +134,7 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    {/* Faq Section Four */}
-                    <section className="faq-section-four">
-                        <div className="auto-container">
-                            <div className="sec-title text-center">
-                                <h2>Find answers in our <br /> list of frequently asked questions </h2>
-                                <div className="text-decoration">
-                                    <span className="left" />
-                                    <span className="right" />
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-8 offset-lg-2">
-                                    <ul className="accordion-box style-two mb-30">
-                                        {/*Accordion Block*/}
-                                        <li className="accordion block">
-                                            <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}><div className="icon-outer"><span className="icon icon_plus flaticon-right" /> <span className="icon icon_minus flaticon-right" /></div>01.   What does you do?</div>
-                                            <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
-                                                <div className="content">
-                                                    <div className="text">Same as saying through shrinking from toil and pain these actual teachings of the great explorer of the truth, the master builder of human happiness.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        {/*Accordion Block*/}
-                                        <li className="accordion block">
-                                            <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-outer"><span className="icon icon_plus flaticon-right" /> <span className="icon icon_minus flaticon-right" /></div>02.  What industries covered?</div>
-                                            <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
-                                                <div className="content">
-                                                    <div className="text">Same as saying through shrinking from toil and pain these actual teachings of the great explorer of the truth, the master builder of human happiness.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        {/*Accordion Block*/}
-                                        <li className="accordion block">
-                                            <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-outer"><span className="icon icon_plus flaticon-right" /> <span className="icon icon_minus flaticon-right" /></div>03.  How do you price?</div>
-                                            <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
-                                                <div className="content">
-                                                    <div className="text">Same as saying through shrinking from toil and pain these actual teachings of the great explorer of the truth, the master builder of human happiness.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        {/* End Block */}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* Feature Section Two */}
-                    <section className="feature-section-two d-none">
-                        <div className="auto-container">
-                            <div className="row">
-                                <div className="col-lg-6 feature-block-two style-two">
-                                    <div className="shape-box">
-                                        <div className="inner-box">
-                                            <div className="icon"><img src="/assets/images/icons/icon-9.png" alt="" /></div>
-                                            <h4>Become a Partner of Envolve</h4>
-                                            <div className="text">To take a trivial example, which of us undertakes <br />laborious physical exercise.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 feature-block-two style-two">
-                                    <div className="shape-box">
-                                        <div className="inner-box">
-                                            <div className="icon"><img src="/assets/images/icons/icon-10.png" alt="" /></div>
-                                            <h4>Career Opportunities in Envolve</h4>
-                                            <div className="text">Who chooses to enjoy a pleasure that has no one <br />annoying consequences.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    
                 </div>
 
             </Layout>

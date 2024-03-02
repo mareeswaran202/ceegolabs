@@ -20,7 +20,7 @@ export default function Footer2() {
                                                     <li><Link href="/aboutus">About</Link></li>
                                                      <li><Link href="/capabilities">Capabilities</Link></li> 
                                                      <li><Link href="/infrastructure">Infrastructure</Link></li>                                  
-                                                    <li><Link href="career">Careers</Link></li>
+                                                   
                                                     {/* <li><Link href="">Blog</Link></li> */}
                                                     <li><Link href="/contactus">Contact Us</Link></li>
                                                    

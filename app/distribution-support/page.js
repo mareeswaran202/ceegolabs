@@ -87,9 +87,7 @@ export default function Home() {
                       <li>
                         <i className="flaticon-tick"></i>Online E-commerce
                       </li>
-                      <li>
-                        <i className="flaticon-tick"></i>Health Kisoks
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
