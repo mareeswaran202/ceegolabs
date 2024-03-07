@@ -110,16 +110,7 @@ export default function Home() {
                                                     <div className="col-md-6 form-group">
                                                         <input type="text" name="phone" placeholder="Phone" required />
                                                     </div>
-                                                    <div className="col-md-12 form-group">
-                                                        <select className="custom-select" name="subject">
-                                                            <option value="*">Discusss about</option>
-                                                            <option value=".category-1">Business Aproach</option>
-                                                            <option value=".category-2">Trades &amp; Stock Market</option>
-                                                            <option value=".category-3">Strategy &amp; Planning</option>
-                                                            <option value=".category-4">Software &amp; Research</option>
-                                                            <option value=".category-5">Support &amp; Maintenance</option>
-                                                        </select>
-                                                    </div>
+                                                   
                                                     <div className="col-md-12 form-group">
                                                         <textarea name="message" placeholder="Message goes here" />
                                                     </div>
