@@ -14,7 +14,13 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     // Mobile Menu
  
     const [isMobileMenu, setMobileMenu] = useState(false)  
-   {!isMobileMenu ? document.body.classList.remove("mobile-menu-visible") : null}
+    useEffect(() => {
+        if (!isMobileMenu) {
+            document.body.classList.remove("mobile-menu-visible");
+        } else {
+           null
+        }
+    }, [isMobileMenu]);
     const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu)
         !isMobileMenu ? document.body.classList.add("mobile-menu-visible") : document.body.classList.remove("mobile-menu-visible")
@@ -25,7 +31,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const [isPopup, setPopup] = useState(false)
     const handlePopup = () => setPopup(!isPopup)
 
-    
    
     return (
         <>
