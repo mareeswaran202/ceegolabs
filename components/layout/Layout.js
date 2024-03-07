@@ -12,10 +12,13 @@ import Header2 from './header/Header2'
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls, breadcrumbbg }) {
     const [scroll, setScroll] = useState()
     // Mobile Menu
-    const [isMobileMenu, setMobileMenu] = useState(false)
+ 
+    const [isMobileMenu, setMobileMenu] = useState(false)  
+   {!isMobileMenu ? document.body.classList.remove("mobile-menu-visible") : null}
     const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu)
         !isMobileMenu ? document.body.classList.add("mobile-menu-visible") : document.body.classList.remove("mobile-menu-visible")
+        console.log(isMobileMenu)
     }
 
     // Popup
@@ -41,6 +44,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                  <Footer2/>
             </div>
             <BackToTop scroll={scroll} />
+            
         </>
     )
 }

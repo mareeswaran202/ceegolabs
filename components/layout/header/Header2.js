@@ -82,7 +82,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     </div>
                 </div>{/* End Sticky Menu */}
                 {/* Mobile Menu  */}
-                <MobileMenu handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} />
+               {isMobileMenu &&  <MobileMenu handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} />}
 
             </header>
 
