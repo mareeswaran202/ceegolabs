@@ -8,7 +8,7 @@ export default function Cta() {
                 <div className="auto-container">
                     <div className="row align-items-center">
                         <div className="col-lg-7">
-                            <h2><span className="flaticon-team" />Lorem Ipsum has been the  <br />standard dummy.</h2>
+                            <h2><span className="flaticon-team" />Say hello to better  <br />Business.</h2>
                         </div>
                         <div className="col-lg-5">
                             <div className="wrapper-box">
