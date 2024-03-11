@@ -3,7 +3,7 @@
 export default function Process() {
     return (
         <>
-            <section className="process-section-two pt-0">
+            <section className="process-section-two">
                 <div className="auto-container">
                     <div className="sec-title style-two text-center">
                         <h4><span className="flaticon-endless" />Work process</h4>

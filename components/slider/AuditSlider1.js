@@ -9,7 +9,7 @@ const swiperOptions = {
     spaceBetween: 30,
     autoplay:true,
     autoplay: {
-        delay: 2500,
+        delay:6000,
         disableOnInteraction: false,
     },
     loop: true,

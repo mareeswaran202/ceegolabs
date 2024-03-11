@@ -31,7 +31,7 @@ function Infrastructure() {
               <div className="col">
                 <div className="text">
                   <p className="text-center">
-                  The manufacturing facility consists of 3 Independent Manufacturing Blocks and 1 Separate Milling Room. Our Unit is equipped with complete AHU system - the Standard of ISO 22000: 2005 & WHO GMP certification for Food Supplements.
+                  The manufacturing facility consists of 3 Independent Manufacturing Blocks and 1 Separate Milling Room. Our Unit is equipped with complete AHU system fitted with HEPA filters - the Standard of ISO 22000: 2005 & WHO GMP certification for Food Supplements.
                   </p>
                 </div>
               </div>
