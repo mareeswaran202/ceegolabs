@@ -5,6 +5,13 @@
     url("../fonts/optipeach-italique-webfont.woff") format("woff");
 }
 
+@font-face {
+  font-family: "open_sansregular";
+  font-weight: normal;
+  src: url('../fonts/OpenSans-Regular-webfont.woff') format("woff");
+}
+
+
 .infraimg {
   background-color: #fff;
   width: 400px;
@@ -637,3 +644,19 @@ ul.aboutlist li::marker {
           margin-bottom: 5px;}
 
           .cta-section-two .wrapper-box{justify-content: flex-end;}
+          .about-section-two .content-block .text{font-size: 17px;}
+          .sec-title h2{font-size: 37px;}
+          .services-details .content-side .text{font-size: 17px; color:#3c3b3b}
+          .ceegotxtpara{font-size: 17px;}
+          .pricing-block .lower-content ul li{font-size: 17px;}
+          .services-details .content-side h2{font-size: 30px;}
+          .service-block-seven h4{font-size: 18px;}
+          .subscribe-newsletter-three .content-box h4{font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            text-align: left;
+            line-height: 27px;
+            color: #3c3b3b;}
+            .about-section-six .content-column .text{font-size: 17px; font-family: "open_sansregular";}
+            ul.aboutlist li{font-size: 17px;}
+             
