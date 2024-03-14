@@ -5,11 +5,17 @@
     url("../fonts/optipeach-italique-webfont.woff") format("woff");
 }
 
+
 @font-face {
-  font-family: "open_sansregular";
+  font-family: 'source_sans_proregular';
+  src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+       url('../fonts//sourcesanspro-bold-webfont.woff') format('woff');
   font-weight: normal;
-  src: url('../fonts/OpenSans-Regular-webfont.woff') format("woff");
+  font-style: normal;
+
 }
+
+
 
 
 .infraimg {
@@ -250,16 +256,18 @@ ul.aboutlist li::marker {
 .ceegotxtpara {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   word-spacing: -6px;
+  color:#373435;
 }
 .ceegotxtpara2 {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   word-spacing: -6px;
+  color: #373435;
 }
 .sec-title h4 {
   text-transform: capitalize;
@@ -644,10 +652,15 @@ ul.aboutlist li::marker {
           margin-bottom: 5px;}
 
           .cta-section-two .wrapper-box{justify-content: flex-end;}
-          .about-section-two .content-block .text{font-size: 17px;}
-          .sec-title h2{font-size: 37px;}
+          .about-section-two .content-block .text{font-size: 18px; font-family: 'source_sans_proregular';
+            color: #373435;
+            line-height: 27px;}
+            .service-block-one .text{font-size: 17px; font-family: 'source_sans_proregular';
+              color: #373435;
+              line-height: 27px;}
+          .sec-title h2{font-size: 35px;}
           .services-details .content-side .text{font-size: 17px; color:#3c3b3b}
-          .ceegotxtpara{font-size: 17px;}
+          
           .pricing-block .lower-content ul li{font-size: 17px;}
           .services-details .content-side h2{font-size: 30px;}
           .service-block-seven h4{font-size: 18px;}
@@ -657,6 +670,15 @@ ul.aboutlist li::marker {
             text-align: left;
             line-height: 27px;
             color: #3c3b3b;}
-            .about-section-six .content-column .text{font-size: 17px; font-family: "open_sansregular";}
+            .about-section-six .content-column .text{font-size: 18px;
+              font-family: 'source_sans_proregular';
+              color: #373435;
+              line-height: 27px;}
             ul.aboutlist li{font-size: 17px;}
+            @media only screen and (max-width:1400px) {
+              .about-section-six .content-column .text{font-size: 16px;}
+              .about-section-two .content-block .text{font-size: 16px;}
+              .service-block-one .text{font-size: 16px; font-family: 'source_sans_proregular'; line-height: 25px;
+                }
+            }
              
