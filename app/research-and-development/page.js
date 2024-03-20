@@ -18,11 +18,11 @@ export default function Home() {
                                     <div className="row mb-5">
                                        
                                         <div className="col-md-12">
-                                            <div className="text"><p>Our Research & Development team is the key behind the science in our products. our
+                                            <div className="text">Our Research & Development team is the key behind the science in our products. our
 formulation development Department is motivated to achieve improved bioavailability,
 efficacy and efficiency. utilizing the latest & newest formulas and radical innovation, we
 ensure that your products are leading in the market & keep up with the changing needs in
-the industry </p></div>
+the industry</div>
                                             
                                             {/* <ul className="list">
                                                 <li><i className="fa fa-check" />Customer Satisfaction</li>

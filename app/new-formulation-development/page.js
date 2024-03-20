@@ -24,10 +24,10 @@ export default function Home() {
                   <div className="row mb-5">
                     <div className="col-md-12">
                       <div className="text">
-                        <p>
+                        
                           
                         Our Research and Development team is the key to the science behind our products. Our formulation development department is motivated to achieve improved bioavailability, efficacy, and efficiency. Utilizing the latest and newest formulas and radical innovation.
-                        </p>
+                        
                       </div>                      
                     </div>
                   </div>                 

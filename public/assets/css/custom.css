@@ -224,7 +224,7 @@ ul.aboutlist {
 ul.aboutlist li {
   list-style: disc;
   margin-bottom: 10px;
-  color: #232629;
+  color: #292929;
   font-size: 18px;
   font-weight: 500;
 }
@@ -269,7 +269,8 @@ ul.aboutlist li::marker {
   font-size: 16px;
   font-weight: 600;
   word-spacing: -6px;
-  color:#373435;
+  /* color:#373435; */
+  color: #494F55;
 }
 .ceegotxtpara2 {
   font-family: optipeach;
@@ -286,9 +287,10 @@ ul.aboutlist li::marker {
 .ceegotxtbighead {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 44px;
+  font-size: 30px;
   font-weight: 700;
   word-spacing: -6px;
+  color: #494f55;
 }
 
 .subscribe-newsletter-three .content-box h4 {
@@ -394,7 +396,7 @@ ul.aboutlist li::marker {
   font-size: 25px !important;
   font-weight: 600 !important;
   margin-bottom: 15px !important;
-  font-family: var(--fira-sans) !important;
+  font-family: var(--roboto) !important;
 }
 
 .btn-style-cap {
@@ -445,6 +447,7 @@ ul.aboutlist li::marker {
   .about-section-two{padding-bottom: 0px;}
   .main-footer.style-two .links-widget .logo{top:-75px;}
   .contact-section.style-five .left-column{padding: 100px 15px 70px;}
+  ul.aboutlist{padding: 20px;}
 }
 
 .banner-carousel .swiper-slide-active .content-box h3{max-width: 600px;}
@@ -467,13 +470,16 @@ ul.aboutlist li::marker {
     line-height: 1.50em;}
 
     .main-menu .navigation{margin-top: 6px;}
-    .capacitypara{font-size: 20px;
+    .capacitypara{font-size: 16px;
       font-weight: 600;
       text-align: left;
       display: flex;
       justify-content: center;
       align-items: baseline;
-      gap: 10px;}
+      gap: 10px;
+      font-family: var(--roboto);
+      color: #494F55;
+    }
 
       .capacitypara i{color: #f84411;}
       .sec-title h2{padding-bottom: 15px;}
@@ -662,14 +668,16 @@ ul.aboutlist li::marker {
           margin-bottom: 5px;}
 
           .cta-section-two .wrapper-box{justify-content: flex-end;}
-          .about-section-two .content-block .text{font-size: 18px; font-family: 'source_sans_proregular';
-            color: #373435;
+          .about-section-two .content-block .text{font-size: 1rem; 
+            /* color: #373435; */
+            color: #494F55;
+            font-weight: normal;
             line-height: 27px;}
-            .service-block-one .text{font-size: 17px; font-family: 'source_sans_proregular';
-              color: #373435;
-              line-height: 27px;}
+            .service-block-one .text{font-size: 1rem ;
+              color: #494F55;
+              line-height: 27px; font-weight: normal;}
           .sec-title h2{font-size: 35px;}
-          .services-details .content-side .text{font-size: 17px; color:#3c3b3b}
+          /* .services-details .content-side .text{font-size: 17px; color:#3c3b3b} */
           
           .pricing-block .lower-content ul li{font-size: 17px;}
           .services-details .content-side h2{font-size: 30px;}
@@ -680,10 +688,11 @@ ul.aboutlist li::marker {
             text-align: left;
             line-height: 27px;
             color: #3c3b3b;}
-            .about-section-six .content-column .text{font-size: 1rem;              
-              color: #373435;
-              line-height: 27px; font-weight: 300;}
-            ul.aboutlist li{font-size: 17px;}
+            .about-section-six .content-column .text{font-size: 1rem;
+              color: #494F55;
+              line-height: 27px;
+              font-weight: normal;}
+            ul.aboutlist li{font-size: 1rem;}
             /* @media only screen and (max-width:1400px) {
               .about-section-six .content-column .text{font-size: 16px;}
               .about-section-two .content-block .text{font-size: 16px;}
@@ -691,5 +700,22 @@ ul.aboutlist li::marker {
                 }
             } */
 
-            .sec-title h2{font-size: 2rem; font-weight: 600;}
+            .sec-title h2{font-size: 2rem; font-weight: 600; color: #202020;}
+            .client-section-two .column img{width: 150px; opacity: .7;}
+            .about-section-six .whay-choose-block .text{color: #494f55;
+              font-size: 1rem;
+              font-weight: 500;}
+              .about-section-six .whay-choose-block h4{color: #202020;}
+              .auto-container2{position: static;
+                max-width: 900px;
+                padding: 0px 15px;
+                margin: 0 auto;}
+
+            
+
+                .pricing-block .lower-content .heighlight-block .inner-box .icon img{opacity: .7;}
+                .services-details .content-side .text{font-family: var(--roboto); font-size: 1rem;
+                  color: #494f55;
+                  font-weight: normal;}
              
+            

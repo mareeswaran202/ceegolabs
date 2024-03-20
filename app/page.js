@@ -8,8 +8,6 @@ import Client from "@/components/sections/home2/Client"
 import Funfacts from "@/components/sections/home2/Funfacts"
  
  
-
- 
 export default function Home() {
 
     return (
@@ -19,7 +17,7 @@ export default function Home() {
                 <About/>                 
                  <Services/>
                  <Cta/>    
-                 <Process/>                              
+                 <Process/>                          
               
                  <Funfacts/>
                  

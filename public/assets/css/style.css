@@ -4874,7 +4874,7 @@ body .btn-style-one:hover {
     position: relative;
     font-size: 22px;
     font-weight: 600;
-    font-family: var(--fira-sans);
+    /* font-family: var(--fira-sans); */
 }
 
 .pricing-block .top-content .price {
@@ -4978,6 +4978,11 @@ body .btn-style-one:hover {
     line-height: 54px;
     padding-left: 55px;
     border-bottom: 1px solid rgb(225, 229, 233);
+    font-family:var(--roboto);
+    font-size: 1rem !important;
+    font-weight: normal !important;
+     
+    
 }
 
 .pricing-block .lower-content ul li i {
@@ -6698,7 +6703,7 @@ body .btn-style-one:hover {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
-    color: #3c3b3b;
+    color: #3c3b3b;   
 }
 
 .about-section-two .content-block h4 {

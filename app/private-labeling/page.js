@@ -24,12 +24,12 @@ export default function Home() {
                   <div className="row mb-5">
                     <div className="col-md-12">
                       <div className="text">
-                        <p>
+                        
                           At <span className="ceegotxtpara">Ceego Labs</span>, quality means doing it right when no
                           one is looking. The highly qualified team at <span className="ceegotxtpara">Ceego Labs</span>, comprising highly knowledgeable consultants,
                           biochemists, and microbiologists, works round the
                           clock to give
-                        </p>
+                        
                          
                       </div>
 

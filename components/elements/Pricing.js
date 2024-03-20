@@ -1,5 +1,5 @@
 "use client";
-
+import { robotos } from "@/app/util/font";
 import { useState } from "react";
 
 export default function Pricing() {
@@ -12,7 +12,7 @@ export default function Pricing() {
       <section className="pricing-section pt-0">
         <div className="auto-container">
           <div className="sec-title text-center">
-            <h2>Our Capabilities</h2>
+            <h2 className={robotos.className}>Our Capabilities</h2>
             <div className="text-decoration">
               <span className="left" />
               <span className="right" />
@@ -76,7 +76,7 @@ export default function Pricing() {
                       <div className="inner-box">
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
-                            <div className="category">Tablets</div>
+                            <div className={`${robotos.className} category`}>Tablets</div>
                             {/* <div className="price"><span>$</span>24.00 <sub>/mo</sub></div>  */}
                           </div>
                         </div>
@@ -130,7 +130,7 @@ export default function Pricing() {
                       <div className="inner-box">
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
-                            <div className="category">Capsules</div>
+                            <div className={`${robotos.className} category`}>Capsules</div>
                           </div>
                         </div>
                         <div className="lower-content">
@@ -159,7 +159,7 @@ export default function Pricing() {
                       <div className="inner-box">
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
-                            <div className="category">Powders</div>
+                            <div className={`${robotos.className} category`}>Powders</div>
                           </div>
                         </div>
                         <div className="lower-content">
@@ -212,7 +212,7 @@ export default function Pricing() {
                       <div className="inner-box">
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
-                            <div className="category">Liquid</div>
+                            <div className={`${robotos.className} category`}>Liquid</div>
                           </div>
                         </div>
                         <div className="lower-content">
@@ -273,7 +273,7 @@ export default function Pricing() {
                       <div className="inner-box">
                         <div className="top-content">
                           <div className="row m-0 justify-content-between">
-                            <div className="category">Annual Capacity</div>
+                            <div className={`${robotos.className} category`}>Annual Capacity</div>
                           </div>
                         </div>
                         <div className="lower-content lowercontent2">

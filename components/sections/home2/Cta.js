@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { robotos } from "@/app/util/font"
 
 
 export default function Cta() {
@@ -8,7 +9,7 @@ export default function Cta() {
                 <div className="auto-container">
                     <div className="row align-items-center">
                         <div className="col-lg-7">
-                            <h2><span className="flaticon-team" />Say hello to better  <br />Business.</h2>
+                            <h2 className={robotos.className}><span className="flaticon-team" />Say hello to better  <br />Business.</h2>
                         </div>
                         <div className="col-lg-5">
                             <div className="wrapper-box">

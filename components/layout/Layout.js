@@ -7,6 +7,13 @@ import Breadcrumb from './Breadcrumb'
 import SearchPopup from "./SearchPopup"
 import Footer2 from './footer/Footer2'
 import Header2 from './header/Header2'
+import { Roboto } from "next/font/google"
+
+const robotos = Roboto({
+    subsets:['latin'],
+    weight:['400','500','700'],
+    variable:'--font-roboto'
+})
 
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls, breadcrumbbg }) {
@@ -35,7 +42,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     return (
         <>
             <DataBg />
-            <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
+            <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""} ${robotos.variable}`} id="#top" >
              <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup}/> 
 
 

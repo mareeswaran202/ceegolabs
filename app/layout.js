@@ -9,9 +9,14 @@ import "public/assets/css/custom.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { Barlow, Fira_Sans } from "next/font/google";
+import { Barlow, Fira_Sans, Roboto } from "next/font/google";
 
-
+const robotto = Roboto({
+  weight: ["400","500","700"],
+  subsets: ["latin"],
+  variable: "--roboto",
+  display: "swap",
+})
 const firaSans = Fira_Sans({
   weight: ["400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
@@ -35,7 +40,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${firaSans.variable} ${barlow.variable}`}>
+    <html lang="en" className={`${firaSans.variable} ${barlow.variable} ${robotto.variable}`}>
       <body>{children}</body>
     </html>
   );
