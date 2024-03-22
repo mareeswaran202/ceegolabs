@@ -7217,10 +7217,11 @@ body .btn-style-one:hover {
 }
 
 .service-block-one h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #202020;
     margin-bottom: 20px;
+    font-family: var(--fntpoppins);
 }
 
 .service-block-one .text {
@@ -7296,14 +7297,16 @@ body .btn-style-one:hover {
 }
 
 .process-block-two h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
+    font-family: var(--fntpoppins);
 }
 
 .process-block-two p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     margin-bottom: 20px;
+    font-family: var(--fntpoppins);
 }
 
 .process-block-two .icon {

@@ -194,8 +194,11 @@
 }
 
 .service-block-one .text {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 15px !important;
+  font-weight: 400;
+  font-family: var(--fntpoppins);
+  color: #666666;
+  line-height: 28px;
 }
 
 .service-block-one .read-more-link {
@@ -255,15 +258,15 @@ ul.aboutlist li::marker {
 .ceegotxt {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 20px;
-  word-spacing: -6px;
+  font-size: 18px;
+   word-spacing: -3px; 
 }
 .ceegotxtpara {
   font-family: optipeach;
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 600;
-  word-spacing: -6px;
+  word-spacing: -3px;
   /* color:#373435; */
   /* color: #494f55; */
   color:#666666;
@@ -271,10 +274,10 @@ ul.aboutlist li::marker {
 .ceegotxtpara2 {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
-  word-spacing: -6px;
-  color: #373435;
+  word-spacing: -3px; 
+  color: #666666;
 }
 .sec-title h4 {
   text-transform: capitalize;
@@ -285,7 +288,7 @@ ul.aboutlist li::marker {
   text-transform: capitalize;
   font-size: 30px;
   font-weight: 700;
-  word-spacing: -6px;
+  word-spacing: -3px;
   color: #494f55;
 }
 
@@ -782,18 +785,19 @@ ul.aboutlist li::marker {
   justify-content: flex-end;
 }
 .about-section-two .content-block .text {
-  font-size: 1rem;
+  font-size: 15px;
   /* color: #373435; */
-  color: #494f55;
-  font-weight: normal;
-  line-height: 27px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: var(--fntpoppins);
 }
-.service-block-one .text {
+/* .service-block-one .text {
   font-size: 1rem;
   color: #494f55;
   line-height: 27px;
   font-weight: normal;
-}
+} */
 .sec-title h2 {
   font-size: 35px;
 }
@@ -837,9 +841,9 @@ ul.aboutlist li::marker {
 
 .sec-title h2 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 700 !important;
   /* color: #202020; */
-  color: #3c3b3b;
+  color: #666666;
   font-family: var(--fntpoppins);
 }
 .client-section-two .column img {
