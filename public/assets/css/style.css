@@ -4980,8 +4980,7 @@ body .btn-style-one:hover {
     border-bottom: 1px solid rgb(225, 229, 233);
     font-family:var(--roboto);
     font-size: 1rem !important;
-    font-weight: normal !important;
-     
+    font-weight: 500 !important;    
     
 }
 
