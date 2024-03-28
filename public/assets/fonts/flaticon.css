@@ -112,3 +112,4 @@ font-style: normal;
 .flaticon-share-1:before { content: "\f151"; }
 .flaticon-close:before { content: "\f152"; }
 .flaticon-remove:before { content: "\f153"; }
+.flaticon-manufacturing::before{content: "\f275";}

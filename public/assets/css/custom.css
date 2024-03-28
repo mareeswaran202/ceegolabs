@@ -199,6 +199,7 @@
   font-family: var(--fntpoppins);
   color: #666666;
   line-height: 28px;
+  color: #3c3b3b;
 }
 
 .service-block-one .read-more-link {
@@ -225,6 +226,7 @@ ul.aboutlist li {
   font-size: 15px;
   font-weight: 400;
   font-family: var(--fntpoppins);
+  color: #3c3b3b;
 }
 ul.aboutlist{padding-left: 20px;}
 ul.aboutlist li::marker {
@@ -264,12 +266,13 @@ ul.aboutlist li::marker {
 .ceegotxtpara {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   word-spacing: -3px;
   /* color:#373435; */
   /* color: #494f55; */
   color:#666666;
+  color: #3c3b3b;
 }
 .ceegotxtpara2 {
   font-family: optipeach;
@@ -277,7 +280,8 @@ ul.aboutlist li::marker {
   font-size: 16px;
   font-weight: 600;
   word-spacing: -3px; 
-  color: #666666;
+  /* color: #666666; */
+  color: #3c3b3b;
 }
 .sec-title h4 {
   text-transform: capitalize;
@@ -286,7 +290,7 @@ ul.aboutlist li::marker {
 .ceegotxtbighead {
   font-family: optipeach;
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 700;
   word-spacing: -3px;
   color: #494f55;
@@ -395,7 +399,7 @@ ul.aboutlist li::marker {
   font-size: 25px !important;
   font-weight: 600 !important;
   margin-bottom: 15px !important;
-  font-family: var(--roboto) !important;
+  font-family: var(--fntpoppins) !important;
 }
 
 .btn-style-cap {
@@ -508,15 +512,15 @@ ul.aboutlist li::marker {
   margin-top: 6px;
 }
 .capacitypara {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: baseline;
   gap: 10px;
-  font-family: var(--roboto);
-  color: #494f55;
+  font-family: var(--fntpoppins);
+  color: #3c3b3b;
 }
 
 .capacitypara i {
@@ -787,10 +791,11 @@ ul.aboutlist li::marker {
 .about-section-two .content-block .text {
   font-size: 15px;
   /* color: #373435; */
-  color: #666666;
+  /* color: #666666; */
   font-weight: 400;
   line-height: 28px;
   font-family: var(--fntpoppins);
+  color: #3c3b3b;
 }
 /* .service-block-one .text {
   font-size: 1rem;
@@ -813,12 +818,13 @@ ul.aboutlist li::marker {
   font-size: 18px;
 }
 .subscribe-newsletter-three .content-box h4 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 25px;
   text-align: left;
-  line-height: 27px;
+  line-height: 28px;
   color: #3c3b3b;
+  font-family: var(--fntpoppins);
 }
 .about-section-six .content-column .text {
   font-size: 15px;
@@ -827,7 +833,8 @@ ul.aboutlist li::marker {
   line-height: 28px;
   font-weight: 400;
   font-family: var(--fntpoppins);
-  color:#666666;
+  /* color:#666666; */
+  color: #3c3b3b;
 }
 /* ul.aboutlist li {
   font-size: 1rem;
@@ -843,17 +850,20 @@ ul.aboutlist li::marker {
   font-size: 2rem;
   font-weight: 700 !important;
   /* color: #202020; */
-  color: #666666;
+  /* color: #666666; */
   font-family: var(--fntpoppins);
+  color: #202020;
 }
 .client-section-two .column img {
   width: 150px;
   opacity: 0.7;
 }
 .about-section-six .whay-choose-block .text {
-  color: #2a2a2a;
-  font-size: 1rem;
-  font-weight: normal;
+  color: #3c3b3b;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--fntpoppins);
+  line-height: 28px;
 }
 .about-section-six .whay-choose-block h4 {
   color: #202020;
@@ -869,8 +879,11 @@ ul.aboutlist li::marker {
   opacity: 0.7;
 }
 .services-details .content-side .text {
-  font-family: var(--roboto);
-  font-size: 1rem;
-  color: #494f55;
-  font-weight: normal;
+  font-family: var(--fntpoppins);
+  font-size: 15px;
+  color: #3c3b3b;
+  font-weight: 400;
+  line-height: 28px;
 }
+.pricing-block .top-content .category{font-family: var(--fntpoppins);}
+.pricing-block .lower-content ul li{font-family: var(--fntpoppins);}

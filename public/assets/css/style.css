@@ -4822,7 +4822,7 @@ body .btn-style-one:hover {
 
 .pricing-section .pricing-btn ul li a {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     color: rgb(165, 175, 191);
     font-family: var(--fira-sans);
@@ -4832,6 +4832,7 @@ body .btn-style-one:hover {
     -o-border-image: initial;
     border-image: initial;
     padding: 8px 20px 5px;
+    font-family: var(--fntpoppins);
 }
 
 .pricing-section .pricing-btn ul li a.active {
@@ -4872,7 +4873,7 @@ body .btn-style-one:hover {
 
 .pricing-block .top-content .category {
     position: relative;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     /* font-family: var(--fira-sans); */
 }
@@ -4979,7 +4980,7 @@ body .btn-style-one:hover {
     padding-left: 55px;
     border-bottom: 1px solid rgb(225, 229, 233);
     font-family:var(--roboto);
-    font-size: 1rem !important;
+    font-size: 15px !important;
     font-weight: 500 !important;    
     
 }
@@ -18072,6 +18073,7 @@ body .btn-style-one:hover {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
+    font-family: var(--fntpoppins);
 }
 
 .services-details .content-side .icon {
@@ -18099,9 +18101,10 @@ body .btn-style-one:hover {
 
 .services-details .content-side .list li {
     position: relative;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
     margin-bottom: 10px;
+    font-family: var(--fntpoppins);
 }
 
 .services-details .content-side .list li i {
@@ -18138,6 +18141,7 @@ body .btn-style-one:hover {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
+    font-family: var(--fntpoppins);
 }
 
 .service-block-seven .text {
@@ -43663,5 +43667,8 @@ squares {
 
 .pricing-btn .nav-tabs .nav-link {
     border: 0px solid transparent;
+    font-weight: 600;
 }
 .cta-section-two h2{font-family: var(--fntpoppins);}
+.services-details .content-side .image-slide .content h4{font-family: var(--fntpoppins);}
+.services-details .content-side .text p{font-family: var(--fntpoppins); font-size: 18px; color: #3c3b3b; line-height: 28px;}
