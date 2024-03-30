@@ -49,6 +49,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${firaSans.variable} ${barlow.variable} ${robotto.variable} ${poppins.variable}`}>
+     <link rel="icon" href="https://ceegolabs.com/assets/images/icons/favicon.ico"></link>
       <body>{children}</body>
     </html>
   );

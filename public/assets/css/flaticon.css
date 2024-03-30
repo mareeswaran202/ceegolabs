@@ -108,7 +108,8 @@ font-style: normal;
 .flaticon-earth-globe:before { content: "\f14d"; }
 .flaticon-zoom-in:before { content: "\f14e"; }
 .flaticon-center:before { content: "\f14f"; }
-.flaticon-fire:before { content: "\f150"; }
+/* .flaticon-fire:before { content: "\f150"; } */
 .flaticon-share-1:before { content: "\f151"; }
 .flaticon-close:before { content: "\f152"; }
 .flaticon-remove:before { content: "\f153"; }
+.flaticon-police-car:before { content: "\f150"; }
