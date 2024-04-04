@@ -31,7 +31,7 @@ export default function Services() {
                                 <Link href="/quality-complaince" className="read-more-link"><i className="flaticon-right-arrow" />Read More</Link>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 service-block-one">
+                        <div className="col-lg-4 col-md-6 service-block-one d-none">
                             <div className="inner-box">
                                 <div className="icon"><div className="icon-inner"><span className="flaticon-system" /></div></div>
                                 <h4>Private Labeling</h4>

@@ -36,7 +36,8 @@ export default function Home() {
                       <span className="right" />
                     </div>
                     <div className="text">
-                    <span className="ceegotxtpara">Ceego Labs</span> provides state-of-the-art manufacturing facilities for Food Supplements, Pharmaceutical and Feed Supplement Formulations. We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality check processes and procedures span every area of manufacturing, from raw materials to finished products. Our combination of highly experienced, well-qualified professionals and the latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing. We are dedicated to delivering the highest possible levels of customer satisfaction.
+                    <span className="ceegotxtpara">Ceego Labs</span> provides state-of-the-art manufacturing facilities for Nutraceuticals,
+Food Supplements, Dietary Supplements, Sports Nutrition, Functional Foods, Pre Probiotics, Pharmaceuticals. We have good manufacturing practices and superior-quality products as a cardinal principle. Quality is paramount at <span className="ceegotxtpara">Ceego Labs</span>. Our quality check processes and procedures span every area of manufacturing, from raw materials to finished products. Our combination of highly experienced, well-qualified professionals and the latest technology allows us to be a pioneer in Pharmaceutical and Nutraceuticals manufacturing. We are dedicated to delivering the highest possible levels of customer satisfaction.
                     </div>
                   </div>
                 </div>
@@ -197,70 +198,7 @@ export default function Home() {
 
           {/* Award Section */}
           <Award/>
-          <section
-            className="award-section style-two d-none"
-            style={{
-              backgroundImage: "url(assets/images/background/bg-21.jpg)",
-            }}
-          >
-            <div className="auto-container">
-              <div className="row">
-                <div className="col-lg-8">
-                  <div className="sec-title light">
-                    <h2>Our awards and achivements</h2>
-                    <div className="text-decoration">
-                      <span className="left" />
-                      <span className="right" />
-                    </div>
-                  </div>
-                  <div className="wrapper-box">
-                    <div className="row">
-                      <div className="col-lg-4 award-block d-flex justify-content-center">
-                        <div className="inner-box">
-                          <div className="image award-image-con">
-                            <img
-                              src="/assets/images/resource/iso2018.png"
-                              alt=""
-                            />
-                          </div>
-                          <h4>
-                            Food Safety <br /> Management System
-                          </h4>
-                        </div>
-                      </div>
-                      <div className="col-lg-4 award-block d-flex justify-content-center">
-                        <div className="inner-box">
-                          <div className="image award-image-con">
-                            <img
-                              className="gmp"
-                              src="/assets/images/resource/award-9.png"
-                              alt=""
-                            />
-                          </div>
-                          <h4>
-                            Good Manufacturing <br /> Practice
-                          </h4>
-                        </div>
-                      </div>
-                      <div className="col-lg-4 award-block d-flex justify-content-center">
-                        <div className="inner-box">
-                          <div className="image award-image-con">
-                            <img
-                              src="/assets/images/resource/award-10.png"
-                              alt=""
-                            />
-                          </div>
-                          <h4>
-                            Registrar Corp <br /> USA
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+         
          
         
          

@@ -46,7 +46,7 @@ We have expertise in new formulations in terms of delivery systems and label cla
                                                 <ul className="categories-list clearfix">
 
                                                                       <li className="d-none"><Link href="/quality-complaince">Quality Compliance <span /></Link></li>
-                        <li><Link href="/private-labeling">Private Labeling <span /></Link></li>
+                        {/* <li><Link href="/private-labeling">Private Labeling <span /></Link></li> */}
                         <li><Link href="/custom-packaging">Custom Packaging <span /></Link></li>
                         <li><Link href="/distribution-support">Distribution Support <span /></Link></li>
                         <li><Link href="/new-formulation-development">New Formulation Development <span /></Link></li>

@@ -4,8 +4,8 @@ import About from "@/components/sections/home2/About"
 import Services from "@/components/sections/home2/Services"
 import Process from "@/components/sections/home2/Process"
 import Cta from "@/components/sections/home2/Cta"
-import Client from "@/components/sections/home2/Client"
 import Funfacts from "@/components/sections/home2/Funfacts"
+import Award from "@/components/slider/Award"
  
  
 export default function Home() {
@@ -17,11 +17,9 @@ export default function Home() {
                 <About/>                 
                  <Services/>
                  <Cta/>    
-                 <Process/>                          
-              
-                 <Funfacts/>
-                 
-                 <Client/>
+                 <Process/>        
+                 <Funfacts/>               
+                 <Award/>
             </Layout>
         </>
     )

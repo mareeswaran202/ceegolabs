@@ -887,3 +887,4 @@ ul.aboutlist li::marker {
 }
 .pricing-block .top-content .category{font-family: var(--fntpoppins);}
 .pricing-block .lower-content ul li{font-family: var(--fntpoppins);}
+.process-block-two h4{margin-bottom: 20px;}

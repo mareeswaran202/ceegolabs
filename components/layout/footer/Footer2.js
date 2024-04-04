@@ -42,7 +42,7 @@ export default function Footer2() {
                                                 <ul>
                                                     <li><Link href="/contract-manufacturing">Contract Manufacturing</Link></li>
                                                     {/* <li><Link href="">Quality Complaince</Link></li> */}
-                                                    <li><Link href="/private-labeling">Private Labeling</Link></li>
+                                                    {/* <li><Link href="/private-labeling">Private Labeling</Link></li> */}
                                                     <li><Link href="/custom-packaging">Custom Packaging</Link></li>
                                                     <li><Link href="/distribution-support">Distribution Support</Link></li>
                                                     <li><Link href="/new-formulation-development">New Formulation Development</Link></li>                                                  

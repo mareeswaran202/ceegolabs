@@ -55,7 +55,7 @@ export default function Home() {
                                         <h4>Factory Address</h4>
                                         <ul>
                                         <li style={{fontSize:13, fontWeight:700}}>S.No.84/1A1, 86/3A1, 86/3A2, 86/3B1,</li>
-                                            <li style={{fontSize:14, fontWeight:700}}>Manjamedu Village Thenneri Post,</li>
+                                            <li style={{fontSize:14, fontWeight:700}}>Manjamedu, Thenneri Post,</li>
                                             <li style={{fontSize:14, fontWeight:700}}>Kanchipuram District - 631 604.</li>
                                         </ul>
                                     </div>
@@ -86,7 +86,7 @@ export default function Home() {
                                             
                                             <ul className="list">
                                                 <li>Monday - Saturday:</li>
-                                                <li>9.00 - 6.00</li>
+                                                <li>9.15 - 6.15</li>
                                                 <li>Sunday &amp; Public Holidays (Closed)</li>
                                             </ul>
                                             

@@ -85,9 +85,9 @@ export default function MobileMenu({
                       </Link>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <Link href="/private-labeling">Private Labeling</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/custom-packaging">Custom Packaging</Link>
                     </li>
@@ -114,7 +114,7 @@ export default function MobileMenu({
                 <li>
                   <Link href="/infrastructure">Infrastructure</Link>
                 </li>
-
+                <li><Link href="/export">Export</Link></li>
                 <li>
                   <Link href="/contactus">Contact Us</Link>
                 </li>

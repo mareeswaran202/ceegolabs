@@ -69,6 +69,11 @@ export default function AwardSlider5() {
         <>
 
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
+            <SwiperSlide className="award-block-two">
+                    <div className="image"><img src="/assets/images/resource/fssai.png" alt="" /></div>
+                    <h4> Food Safety And Standards <br /> Authority Of India</h4>
+                    
+                </SwiperSlide>
                 <SwiperSlide className="award-block-two" onClick={Showmodalpopup}>
                     <div className="image"><img src="/assets/images/resource/iso2018.png" alt="" /></div>
                     <h4> Food Safety <br /> Management System</h4>

@@ -48,11 +48,11 @@ export default function Home() {
                               Quality Compliance <span />
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="/private-labeling">
                               Private Labeling <span />
                             </Link>
-                          </li>
+                          </li> */}
 
                           <li>
                             <Link href="/distribution-support">
