@@ -2,7 +2,7 @@
 import Layout from "@/components/layout/Layout"
 import About from "@/components/sections/home2/About"
 import Banner from "@/components/sections/home2/Banner"
-import Client from "@/components/sections/home2/Client"
+
 import Contact from "@/components/sections/home2/Contact"
 import Cta from "@/components/sections/home2/Cta"
 import Features from "@/components/sections/home2/Features"
@@ -22,8 +22,7 @@ export default function Home() {
                 <Services />
                 <Process />
                 <Cta />               
-                <Testimonial />
-                <Client />
+                <Testimonial />               
                 <Funfacts />
                 <News />
                 <Contact />
