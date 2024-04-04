@@ -26,6 +26,13 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="row">
+           <div className="col">
+            <div className="text2">
+            Exporting to the below countries under our own brand and as a contract manufacturer.
+            </div>
+           </div>
+          </div>
           <div className="auto-container">
             <div className="wrapper-box">
               <div className="pointer-block">
