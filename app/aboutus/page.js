@@ -59,7 +59,7 @@ Food Supplements, Dietary Supplements, Sports Nutrition, Functional Foods, Pre P
                   <div className="text">
                     <ul className="aboutlist">
                       <li>
-                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt. Ltd. has been involved in P2P manufacturing and exports of Nutraceuticals, Pharmaceuticals and Feed Supplement Formulations.
+                        Since 2012, <span className="ceegotxtpara">Ceego Labs</span> Pvt. Ltd. has been involved in P2P manufacturing and exports of Nutraceuticals, Pharmaceuticals and Food Supplement Formulations.
                       </li>
                       {/* <li>
                       <span className="ceegotxtpara">Ceego Labs</span> has a strong presence in both the domestic and global markets. 
