@@ -779,6 +779,34 @@ ul.aboutlist li::marker {
     padding-top: 0px;
   }
 }
+
+@media only screen and (max-width: 575px){
+  .about-section-six .experience-years-block .text{
+    margin-top: -150px;
+  }
+  .page-title .content-box h1{font-size: 35px;}
+  .logo img{width: 200px;
+    height: 40px;}
+
+     
+}
+
+@media only screen and (max-width: 767px){
+  .about-section-six .experience-years-block .text{
+    margin-top: -150px;
+  }
+  .page-title .content-box h1{font-size: 35px;}
+  .logo img{width: 200px;
+    height: 40px;}
+
+    .main-header .nav-outer .main-menu{display: none !important;}
+    .sticky-header{display:unset !important}
+}
+
+.modaloverlay{z-index: 99902;}
+.services-details .tab-btn-style-one li a{font-size: 16px;}
+.services-details .tab-btn-style-one li a:before{right: 10px;}
+.process-block-two .icon .step-count{display: none;}
 .services-details .content-side .image-slide .content h4 {
   font-size: 22px;
 }

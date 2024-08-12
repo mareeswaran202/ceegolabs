@@ -10,7 +10,7 @@ export default function ServiceTabs1() {
         <>
             <div className="row">
                 <div className="col-md-3">
-                    <ul className="nav nav-tabs tab-btn-style-one mr-md-4" role="tablist">
+                    <ul className="nav nav-tabs tab-btn-style-one" role="tablist">
                         <li className="nav-item" onClick={() => handleOnClick(1)}>
                             <a className={activeIndex == 1 ? "nav-link active" : "nav-link"}>01. Production
                             </a>
@@ -27,7 +27,7 @@ export default function ServiceTabs1() {
                         </li>
                         <li className="nav-item" onClick={() => handleOnClick(4)}>
                             <a className={activeIndex == 4 ? "nav-link active" : "nav-link"}>
-                                04. Environment Mgmt
+                                04. Environment Management
                             </a>
                         </li>
                         

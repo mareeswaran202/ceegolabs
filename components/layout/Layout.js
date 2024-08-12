@@ -37,7 +37,21 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     // Popup
     const [isPopup, setPopup] = useState(false)
     const handlePopup = () => setPopup(!isPopup)
+    
+    useEffect(() => {
+        const WOW = require('wowjs')
+        window.wow = new WOW.WOW({
+            live: false
+        })
+        window.wow.init()
 
+        document.addEventListener("scroll", () => {
+            const scrollCheck = window.scrollY > 100
+            if (scrollCheck !== scroll) {
+                setScroll(scrollCheck)
+            }
+        })
+    }, [])
    
     return (
         <>
